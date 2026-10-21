@@ -477,7 +477,7 @@
     <div class="footer__content-bottom-wrapper page-width{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}{% if section.settings.bottom_page_width != 'normal' %} {{ section.settings.bottom_page_width }}{% endif %}">
       <div class="footer__copyright caption">
         <small class="copyright__content">
-          &copy; {{ 'now' | date: '%Y' }}, {{ shop.name | link_to: routes.root_url -}}
+          &copy; {{ 'now' | date: '%Y' }}, {{ 'The Healthy Pepper' | link_to: routes.root_url -}}
         </small>
         {% unless section.settings.branding_text == blank %}
           <small class="copyright__content">{{ section.settings.branding_text }}</small>

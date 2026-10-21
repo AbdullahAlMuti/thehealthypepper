@@ -52,12 +52,11 @@
       "type": "footer",
       "blocks": {
         "image_Q6dbc3": {
-          "type": "image",
+          "type": "text",
           "settings": {
-            "image": "shopify://shop_images/pawosa.png",
-            "image_width": 170,
-            "alignment": "center",
-            "url": "https://pawosa.com/",
+            "heading": "The Healthy Pepper",
+            "block_headings_font_size": 1.2,
+            "subtext": "<p>Pepper Health Products LLC</p>",
             "width_desktop": 3,
             "width_mobile": "2"
           }
@@ -89,9 +88,9 @@
         "brand_info_text": {
           "type": "text",
           "settings": {
-            "heading": "Our Mission",
+            "heading": "Contact Information",
             "block_headings_font_size": 1.2,
-            "subtext": "<h5>Everyday pet care made simple, safe, and joyful.<br/><br/><strong>Operated by:</strong> ALMUTI LLC d/b/a Pawosa<br/><br/><strong>Address:</strong><br/>491 Fort Smith Blvd, Deltona, FL 32738, United States<br/><br/><strong>Support:</strong><br/><a href=\"mailto:contact@pawosa.com\" target=\"_blank\" title=\"mailto:contact@pawosa.com\">contact@pawosa.com</a><br/><a href=\"tel:+1 (386) 320-8813\" title=\"tel:+1 (386) 320-8813\">+1 (386) 320-8813</a><br/>Hours: Mon–Fri, 9:00 AM–6:00 PM (EST)</h5>",
+            "subtext": "<p><strong>Trade name:</strong> The Healthy Pepper</p><p><strong>Physical address:</strong><br>Pepper Health Products LLC<br>3130 Cotton Creek Pl<br>Casper WY 82604<br>United States</p><p><strong>Email:</strong><br><a href=\"mailto:customerservice@thehealthypepper.com\">customerservice@thehealthypepper.com</a></p>",
             "width_desktop": 3,
             "width_mobile": "2"
           }

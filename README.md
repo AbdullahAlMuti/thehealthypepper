@@ -21,24 +21,25 @@ d:\thehealthypepper\
 │   ├── shopify_products_import.csv    # Official Shopify CSV (1-click import into any Shopify store)
 │   ├── products.json                  # Complete raw JSON payload of all 90 products
 │   └── products_summary.json          # Index of all products (Title, Handle, Price, SKU, Tags)
-├── products\
-│   ├── [product-handle-1]\
+├── Products\
+│   ├── [Product Name]\                # e.g. "Pepper Bliss", "Ayurvedic Complex", "Raw Shea Butter"
+│   │   ├── images\                    # High-resolution original images (image_01.jpg, ...)
+│   │   ├── -images\                   # Direct alias/junction to images folder
 │   │   ├── metadata.json              # Full individual product metadata JSON
-│   │   ├── description.html           # HTML formatted body description
-│   │   └── images\                    # High-resolution original images
-│   │       ├── image_01.jpg
-│   │       └── ...
-│   └── ... (all 90 product folders)
+│   │   └── description.html           # HTML formatted body description
+│   └── ... (all 90 product folders named by product title)
 ├── scripts\
 │   ├── export_products.py             # Reusable extraction & media downloader pipeline
 │   ├── shopify_formatter.py           # Shopify CSV converter & handle sanitizer
+│   ├── create_junctions_and_verify.py # Junction builder & image validator
 │   └── verify_export.py               # Complete catalog integrity & audit runner
 ├── docs\
 │   └── superpowers\
 │       ├── specs\                     # Approved architecture design specification
 │       └── plans\                     # Implementation plan
 └── tests\
-    └── test_shopify_formatter.py      # Unit tests
+    ├── test_shopify_formatter.py      # Formatter unit tests
+    └── test_products_structure.py     # Product folder & image structure tests
 ```
 
 ---
