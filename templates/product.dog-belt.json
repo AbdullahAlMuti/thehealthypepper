@@ -12,6 +12,24 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "trustpilot_stars_DBgAT9": {
+          "type": "trustpilot-stars",
+          "name": "Trustpilot stars",
+          "settings": {
+            "visibility": "always-display",
+            "rating": 5,
+            "star_color": "#00b67a",
+            "bg_star_color": "#c8c8c8",
+            "star_symbol_color": "#fff",
+            "label": "",
+            "size": 16,
+            "alignment": "flex-start",
+            "scroll_id": "",
+            "margin_top": 15,
+            "margin_bottom": 15
+          },
+          "blocks": {}
+        },
         "custom_liquid_rXtWbG": {
           "type": "custom-liquid",
           "name": "Custom title",
@@ -840,6 +858,7 @@
         }
       },
       "block_order": [
+        "trustpilot_stars_DBgAT9",
         "custom_liquid_rXtWbG",
         "price",
         "text_with_icon_XqbbCc",
