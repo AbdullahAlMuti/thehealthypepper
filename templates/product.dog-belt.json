@@ -1313,7 +1313,7 @@
             "heading": "Will this latch fit into my vehicle's seatbelt buckle?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>The standard 0.83-inch (2.1 cm) stainless steel latch is designed to fit many standard vehicle seat-belt buckles. We recommend checking your vehicle's buckle dimensions and compatibility before ordering.</p>",
+            "row_content": "<p>We generally recommend taking [Insert Number] capsules daily, preferably with a meal, or as directed by your healthcare professional.</p>",
             "page": ""
           },
           "blocks": {}
@@ -1322,10 +1322,10 @@
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "How does the bungee shock-absorbing buffer protect my dog?",
+            "heading": "What are the key ingredients in this supplement?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>The elastic bungee core dampens sudden stops, sudden accelerations, and sharp turns, reducing stress and protecting your dog from sudden jerks.</p>",
+            "row_content": "<p>This formula features [Insert Key Ingredient, e.g., Black Pepper Extract] alongside a blend of high-quality nutrients designed for maximum absorption.</p>",
             "page": ""
           },
           "blocks": {}
@@ -1334,10 +1334,10 @@
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Does the tether allow my dog to move comfortably?",
+            "heading": "Is this product vegan or vegetarian-friendly?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>Yes. The heavy-duty 360-degree anti-tangle swivel clasp and 20 to 32-inch adjustable nylon strap let your dog sit, lie down, or stand without tangling.</p>",
+            "row_content": "<p>Our capsules are made from [Insert Material, e.g., vegetable cellulose], making them suitable for [vegetarian/vegan] lifestyles. Check the label for full allergen info<br/><br/></p>",
             "page": ""
           },
           "blocks": {}
@@ -1346,10 +1346,10 @@
           "type": "collapsible-row-content",
           "settings": {
             "open": false,
-            "heading": "Should I attach the tether to a collar or a harness?",
+            "heading": "Can I take this supplement with other medications?",
             "icon": "",
             "filled_icon": false,
-            "row_content": "<p>For vehicle safety, always attach the tether to your dog's harness (such as our No-Pull Dog Harness) rather than a neck collar to prevent choking or neck strain.</p>",
+            "row_content": "<p>As with any dietary supplement, we recommend consulting with your doctor before adding it to your regimen if you are currently taking other medications</p>",
             "page": ""
           },
           "blocks": {}
