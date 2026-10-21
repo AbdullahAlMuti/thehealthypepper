@@ -10,7 +10,7 @@ import csv
 
 def run_verification(workspace_root: str):
     data_dir = os.path.join(workspace_root, "data")
-    products_dir = os.path.join(workspace_root, "products")
+    products_dir = os.path.join(workspace_root, "Products")
     
     errors = []
     
@@ -51,21 +51,23 @@ def run_verification(workspace_root: str):
         if len(rows) < total_products:
             errors.append(f"CSV row count ({len(rows)}) is less than total products ({total_products})")
             
-    # 4. Verify product folders, metadata, html descriptions, and images
+    # 4. Verify product folders, metadata, html descriptions, images, and -images junctions
     product_folders = [d for d in os.listdir(products_dir) if os.path.isdir(os.path.join(products_dir, d))]
-    print(f"[VERIFY] Found {len(product_folders)} folders in products/")
+    print(f"[VERIFY] Found {len(product_folders)} folders in Products/")
     if len(product_folders) != total_products:
         errors.append(f"Product folders count ({len(product_folders)}) != total products ({total_products})")
         
     total_images_found = 0
     total_images_size_bytes = 0
     zero_byte_images = []
+    junction_count = 0
     
     for folder_name in product_folders:
         folder_path = os.path.join(products_dir, folder_name)
         meta_file = os.path.join(folder_path, "metadata.json")
         desc_file = os.path.join(folder_path, "description.html")
         images_dir = os.path.join(folder_path, "images")
+        dash_images_dir = os.path.join(folder_path, "-images")
         
         if not os.path.exists(meta_file):
             errors.append(f"Missing metadata.json in {folder_name}")
@@ -74,7 +76,7 @@ def run_verification(workspace_root: str):
         if not os.path.exists(images_dir):
             errors.append(f"Missing images directory in {folder_name}")
         else:
-            images = os.listdir(images_dir)
+            images = [f for f in os.listdir(images_dir) if os.path.isfile(os.path.join(images_dir, f))]
             total_images_found += len(images)
             for img in images:
                 img_path = os.path.join(images_dir, img)
@@ -82,11 +84,17 @@ def run_verification(workspace_root: str):
                 if sz == 0:
                     zero_byte_images.append(img_path)
                 total_images_size_bytes += sz
+
+        if os.path.exists(dash_images_dir):
+            junction_count += 1
+        else:
+            errors.append(f"Missing -images junction in {folder_name}")
                 
     if zero_byte_images:
         errors.append(f"Found {len(zero_byte_images)} 0-byte images")
         
     print(f"[VERIFY] Total downloaded images: {total_images_found}")
+    print(f"[VERIFY] Total active -images junctions: {junction_count}/{len(product_folders)}")
     print(f"[VERIFY] Total media size: {total_images_size_bytes / (1024 * 1024):.2f} MB")
     
     if errors:

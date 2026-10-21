@@ -1,6 +1,7 @@
 """
 The Healthy Pepper Product Export & Archive Tool
 Extracts all products, metadata, descriptions, images, and generates a Shopify-compatible CSV.
+Products are organized in Products/<Product Name>/images/.
 """
 
 import os
@@ -11,6 +12,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")
 
 import json
 import time
+import subprocess
 import urllib.parse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import List, Dict, Any
@@ -22,6 +24,12 @@ BASE_URL = "https://thehealthypepper.com/products.json"
 MAX_WORKERS = 8
 REQUEST_TIMEOUT = 25
 MAX_RETRIES = 3
+
+
+def sanitize_title_folder(title: str) -> str:
+    """Sanitize title for Windows directory naming."""
+    forbidden = r'\/:*?"<>|'
+    return "".join("-" if c in forbidden else c for c in title).strip()
 
 
 def fetch_all_products(base_url: str = BASE_URL) -> List[Dict[str, Any]]:
@@ -91,7 +99,7 @@ def download_single_image(img_url: str, dest_path: str, retries: int = MAX_RETRI
 def export_catalog(workspace_root: str):
     """Main export pipeline."""
     data_dir = os.path.join(workspace_root, "data")
-    products_dir = os.path.join(workspace_root, "products")
+    products_dir = os.path.join(workspace_root, "Products")
     os.makedirs(data_dir, exist_ok=True)
     os.makedirs(products_dir, exist_ok=True)
 
@@ -125,9 +133,9 @@ def export_catalog(workspace_root: str):
     print(f"\n[*] Creating individual product archives in {products_dir}...")
 
     for idx, p in enumerate(products, 1):
-        handle = p.get("handle") or f"product-{p.get('id', idx)}"
-        sanitized = sanitize_handle(handle)
-        prod_folder = os.path.join(products_dir, sanitized)
+        title = (p.get("title") or f"Product {idx}").strip()
+        folder_name = sanitize_title_folder(title)
+        prod_folder = os.path.join(products_dir, folder_name)
         os.makedirs(prod_folder, exist_ok=True)
 
         # metadata.json
@@ -145,6 +153,14 @@ def export_catalog(workspace_root: str):
         img_dir = os.path.join(prod_folder, "images")
         os.makedirs(img_dir, exist_ok=True)
 
+        # -images junction
+        dash_images_dir = os.path.join(prod_folder, "-images")
+        if not os.path.exists(dash_images_dir):
+            escaped_dash = dash_images_dir.replace("'", "''")
+            escaped_img = img_dir.replace("'", "''")
+            ps_cmd = f"New-Item -ItemType Junction -Path '{escaped_dash}' -Target '{escaped_img}'"
+            subprocess.run(["powershell", "-NoProfile", "-Command", ps_cmd], capture_output=True)
+
         for img_idx, img in enumerate(images, 1):
             src = img.get("src")
             if not src:
@@ -156,7 +172,7 @@ def export_catalog(workspace_root: str):
                 ext = ".jpg"
             dest_filename = f"image_{img_idx:02d}{ext.lower()}"
             dest_path = os.path.join(img_dir, dest_filename)
-            download_tasks.append((clean_url, dest_path, handle))
+            download_tasks.append((clean_url, dest_path, title))
 
     print(f"[+] Queued {len(download_tasks)} total images across {len(products)} products.")
 
@@ -167,11 +183,11 @@ def export_catalog(workspace_root: str):
 
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         future_map = {
-            executor.submit(download_single_image, url, path): (url, path, handle)
-            for url, path, handle in download_tasks
+            executor.submit(download_single_image, url, path): (url, path, title)
+            for url, path, title in download_tasks
         }
         for future in as_completed(future_map):
-            url, path, handle = future_map[future]
+            url, path, title = future_map[future]
             try:
                 if future.result():
                     success_count += 1

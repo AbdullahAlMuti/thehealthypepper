@@ -1,4 +1,7 @@
 __pycache__/
 *.pyc
+Products/*/images/
+Products/*/-images/
 products/*/images/
+products/*/-images/
 thehealthypepper.zip
