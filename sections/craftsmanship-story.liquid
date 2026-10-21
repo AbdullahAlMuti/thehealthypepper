@@ -1,0 +1,234 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  .craftsmanship-story {
+    background-color: #F4F6F9;
+    color: #171A60;
+    border-top: 1px solid rgba(23, 26, 96, 0.08);
+    border-bottom: 1px solid rgba(23, 26, 96, 0.08);
+  }
+
+  .craftsmanship-story__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    align-items: center;
+  }
+
+  @media screen and (min-width: 990px) {
+    .craftsmanship-story__grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 6rem;
+    }
+  }
+
+  .craftsmanship-story__image-container {
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(15, 18, 50, 0.12);
+  }
+
+  .craftsmanship-story__image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    aspect-ratio: 4 / 3;
+  }
+
+  .craftsmanship-story__content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .craftsmanship-story__eyebrow {
+    font-family: 'Space Mono', monospace !important;
+    font-size: 1.2rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #0077A0;
+    font-weight: 700;
+  }
+
+  .craftsmanship-story__heading {
+    font-family: 'Playfair Display', Georgia, serif !important;
+    font-size: clamp(2.6rem, 3.5vw, 4rem);
+    font-weight: 400;
+    line-height: 1.15;
+    color: #171A60;
+    margin: 0;
+  }
+
+  .craftsmanship-story__text {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    color: #4A4E69;
+    margin: 0;
+  }
+
+  .craftsmanship-story__specs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 1rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(23, 26, 96, 0.1);
+  }
+
+  .craftsmanship-story__spec-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .craftsmanship-story__spec-value {
+    font-family: 'Space Mono', monospace !important;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #171A60;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .craftsmanship-story__hotspot {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #0077A0;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0 0 15px rgba(0, 119, 160, 0.8);
+    cursor: pointer;
+    z-index: 10;
+    animation: hotspotPulse 2s infinite;
+  }
+
+  .craftsmanship-story__hotspot::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 130%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #171A60;
+    color: #FFFFFF;
+    font-family: 'Space Mono', monospace !important;
+    font-size: 1.1rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    pointer-events: none;
+  }
+
+  .craftsmanship-story__hotspot:hover::after {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  @keyframes hotspotPulse {
+    0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(0, 119, 160, 0.7); }
+    70% { transform: scale(1.15); box-shadow: 0 0 0 12px rgba(0, 119, 160, 0); }
+    100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(0, 119, 160, 0); }
+  }
+{%- endstyle -%}
+
+<div class="craftsmanship-story section-{{ section.id }}-padding">
+  <div class="page-width">
+    <div class="craftsmanship-story__grid">
+      <div class="craftsmanship-story__image-container">
+        {%- if section.settings.image != blank -%}
+          {{ section.settings.image | image_url: width: 1200 | image_tag: loading: 'lazy', sizes: '(min-width: 990px) 50vw, 100vw' }}
+        {%- else -%}
+          <img src="{{ 'ribotex_corporate_executive_hero_1920x1080.jpg' | asset_url }}" alt="Ribotex Executive Fine Cotton Weave" width="1200" height="900" loading="lazy">
+        {%- endif -%}
+        
+        <div class="craftsmanship-story__hotspot" style="top: 22%; left: 38%;" data-tooltip="German Fused Interlining Collar"></div>
+        <div class="craftsmanship-story__hotspot" style="top: 48%; left: 45%;" data-tooltip="18 Precision Stitches Per Inch"></div>
+        <div class="craftsmanship-story__hotspot" style="top: 68%; left: 42%;" data-tooltip="Australian Mother-of-Pearl Shell Button"></div>
+      </div>
+
+      <div class="craftsmanship-story__content">
+        <span class="craftsmanship-story__eyebrow">The Science of Elegance</span>
+        <h2 class="craftsmanship-story__heading">Engineered Fine Cotton & Precision Tailoring</h2>
+        <p class="craftsmanship-story__text">
+          Every Ribotex formal shirt is crafted from 100% Extra-Long Staple Cotton, woven with a 120s two-ply construction for an ultra-soft feel, natural luster, and superior wrinkle resistance throughout your executive day.
+        </p>
+
+        <div class="craftsmanship-story__specs">
+          <div class="craftsmanship-story__spec-item">
+            <span class="craftsmanship-story__spec-value">120s Two-Ply</span>
+            <span class="craftsmanship-story__spec-label">Fine Cotton Count</span>
+          </div>
+          <div class="craftsmanship-story__spec-item">
+            <span class="craftsmanship-story__spec-value">18 Stitches/In</span>
+            <span class="craftsmanship-story__spec-label">Precision Seams</span>
+          </div>
+          <div class="craftsmanship-story__spec-item">
+            <span class="craftsmanship-story__spec-value">German Fused</span>
+            <span class="craftsmanship-story__spec-label">Structured Collar</span>
+          </div>
+          <div class="craftsmanship-story__spec-item">
+            <span class="craftsmanship-story__spec-value">Mother-of-Pearl</span>
+            <span class="craftsmanship-story__spec-label">Polished Buttons</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Craftsmanship Story",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Section Image"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Top Padding",
+      "default": 64
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Bottom Padding",
+      "default": 64
+    }
+  ],
+  "presets": [
+    {
+      "name": "Craftsmanship Story"
+    }
+  ]
+}
+{% endschema %}

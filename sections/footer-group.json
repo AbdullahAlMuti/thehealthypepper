@@ -1,0 +1,142 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "newsletter_VrfkhT": {
+      "type": "newsletter",
+      "blocks": {
+        "email_form_3nNT6t": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "email_form_3nNT6t"
+      ],
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "button_type": "arrow",
+        "button_label": "Sign up",
+        "button_style_secondary": false,
+        "color_scheme": "custom",
+        "custom_colors_background": "#1b1b1b",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff",
+        "custom_colors_solid_button_background": "#000000",
+        "custom_colors_solid_button_text": "#ffffff",
+        "pattern_bg": "none",
+        "pattern_color": "#6d388b",
+        "pattern_size": 20,
+        "pattern_thickness": 2,
+        "pattern_angle": 45,
+        "pattern_opacity_mode": "low",
+        "pattern_opacity_low": 7,
+        "pattern_opacity_normal": 80,
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "image_Q6dbc3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pawosa.png",
+            "image_width": 170,
+            "alignment": "center",
+            "url": "https://pawosa.com/",
+            "width_desktop": 3,
+            "width_mobile": "2"
+          }
+        },
+        "link_list_GDdmEh": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Information",
+            "block_headings_font_size": 1.2,
+            "menu": "footer",
+            "font_size": 14,
+            "menu_items_font": "body",
+            "width_desktop": 3,
+            "width_mobile": "2"
+          }
+        },
+        "link_list_4McrWf": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Policies",
+            "block_headings_font_size": 1.2,
+            "menu": "policy",
+            "font_size": 14,
+            "menu_items_font": "body",
+            "width_desktop": 3,
+            "width_mobile": "2"
+          }
+        },
+        "brand_info_text": {
+          "type": "text",
+          "settings": {
+            "heading": "Our Mission",
+            "block_headings_font_size": 1.2,
+            "subtext": "<h5>Everyday pet care made simple, safe, and joyful.<br/><br/><strong>Operated by:</strong> ALMUTI LLC d/b/a Pawosa<br/><br/><strong>Address:</strong><br/>491 Fort Smith Blvd, Deltona, FL 32738, United States<br/><br/><strong>Support:</strong><br/><a href=\"mailto:contact@pawosa.com\" target=\"_blank\" title=\"mailto:contact@pawosa.com\">contact@pawosa.com</a><br/><a href=\"tel:+1 (386) 320-8813\" title=\"tel:+1 (386) 320-8813\">+1 (386) 320-8813</a><br/>Hours: Mon–Fri, 9:00 AM–6:00 PM (EST)</h5>",
+            "width_desktop": 3,
+            "width_mobile": "2"
+          }
+        }
+      },
+      "block_order": [
+        "image_Q6dbc3",
+        "link_list_GDdmEh",
+        "link_list_4McrWf",
+        "brand_info_text"
+      ],
+      "settings": {
+        "color_scheme": "custom",
+        "custom_colors_background": "#1b1b1b",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff",
+        "custom_colors_solid_button_background": "#ffffff",
+        "custom_colors_solid_button_text": "#4d4d4d",
+        "custom_colors_outline_button": "#ffffff",
+        "pattern_bg": "none",
+        "pattern_color": "#121212",
+        "pattern_size": 20,
+        "pattern_thickness": 2,
+        "pattern_angle": 45,
+        "pattern_opacity_mode": "low",
+        "pattern_opacity_low": 7,
+        "pattern_opacity_normal": 80,
+        "enable_follow_on_shop": false,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "enabled_payment_types": "",
+        "show_policy": false,
+        "branding_text": "",
+        "top_page_width": "normal",
+        "bottom_page_width": "normal",
+        "margin_top": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "newsletter_VrfkhT",
+    "footer"
+  ]
+}

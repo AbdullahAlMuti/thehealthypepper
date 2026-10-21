@@ -1,0 +1,212 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  .fit-advisor {
+    background-color: #FFFFFF;
+    color: #171A60;
+  }
+
+  .fit-advisor__header {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 4rem auto;
+  }
+
+  .fit-advisor__eyebrow {
+    font-family: 'Space Mono', monospace !important;
+    font-size: 1.2rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #0077A0;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 0.8rem;
+  }
+
+  .fit-advisor__heading {
+    font-family: 'Playfair Display', Georgia, serif !important;
+    font-size: clamp(2.4rem, 3vw, 3.6rem);
+    font-weight: 400;
+    color: #171A60;
+    margin: 0 0 1rem 0;
+  }
+
+  .fit-advisor__subtext {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 1.5rem;
+    color: #6C757D;
+    line-height: 1.5;
+  }
+
+  .fit-advisor__box {
+    max-width: 840px;
+    margin: 0 auto;
+    background: #F4F6F9;
+    border: 1px solid rgba(23, 26, 96, 0.1);
+    border-radius: 8px;
+    padding: 3rem 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+  }
+
+  @media screen and (min-width: 750px) {
+    .fit-advisor__box {
+      padding: 4rem;
+    }
+  }
+
+  .fit-advisor__toggle-group {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .fit-advisor__toggle-btn {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 1.2rem 2.4rem;
+    border: 1px solid #171A60;
+    background: transparent;
+    color: #171A60;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .fit-advisor__toggle-btn.active,
+  .fit-advisor__toggle-btn:hover {
+    background: #171A60;
+    color: #FFFFFF;
+  }
+
+  .fit-advisor__metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    text-align: center;
+    padding-top: 2rem;
+    border-top: 1px dashed rgba(23, 26, 96, 0.15);
+  }
+
+  .fit-advisor__metric-val {
+    font-family: 'Space Mono', monospace !important;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0077A0;
+    display: block;
+    margin-bottom: 0.4rem;
+  }
+
+  .fit-advisor__metric-lbl {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 1.2rem;
+    color: #4A4E69;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+{%- endstyle -%}
+
+<div class="fit-advisor section-{{ section.id }}-padding">
+  <div class="page-width">
+    <div class="fit-advisor__header">
+      <span class="fit-advisor__eyebrow">Precision Fitting</span>
+      <h2 class="fit-advisor__heading">Find Your Executive Silhouette</h2>
+      <p class="fit-advisor__subtext">Select your preferred cut to preview chest, waist, and collar ratios tailored for formal elegance.</p>
+    </div>
+
+    <div class="fit-advisor__box">
+      <div class="fit-advisor__toggle-group">
+        <button type="button" class="fit-advisor__toggle-btn active" onclick="switchFit('tailored')">Tailored Slim Fit</button>
+        <button type="button" class="fit-advisor__toggle-btn" onclick="switchFit('classic')">Classic Comfort Fit</button>
+      </div>
+
+      <div class="fit-advisor__metrics-grid" id="fit-metrics">
+        <div>
+          <span class="fit-advisor__metric-val" id="val-chest">40"</span>
+          <span class="fit-advisor__metric-lbl">Chest Width</span>
+        </div>
+        <div>
+          <span class="fit-advisor__metric-val" id="val-waist">37"</span>
+          <span class="fit-advisor__metric-lbl">Waist Taper</span>
+        </div>
+        <div>
+          <span class="fit-advisor__metric-val" id="val-sleeve">33.5"</span>
+          <span class="fit-advisor__metric-lbl">Sleeve Length</span>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 3rem;">
+        <a href="https://wa.me/8801972562464" target="_blank" class="button button--secondary" style="font-size: 1.3rem; padding: 1.2rem 2.8rem; background: #0077A0; color: #FFFFFF; border: none; border-radius: 4px;">
+          📞 Consult Executive VIP Stylist (+880 1972-562464)
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function switchFit(type) {
+    const btns = document.querySelectorAll('.fit-advisor__toggle-btn');
+    btns.forEach(btn => btn.classList.remove('active'));
+    
+    if (type === 'tailored') {
+      btns[0].classList.add('active');
+      document.getElementById('val-chest').innerText = '40"';
+      document.getElementById('val-waist').innerText = '37"';
+      document.getElementById('val-sleeve').innerText = '33.5"';
+    } else {
+      btns[1].classList.add('active');
+      document.getElementById('val-chest').innerText = '43"';
+      document.getElementById('val-waist').innerText = '41"';
+      document.getElementById('val-sleeve').innerText = '34.0"';
+    }
+  }
+</script>
+
+{% schema %}
+{
+  "name": "Fit Advisor Widget",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Top Padding",
+      "default": 64
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Bottom Padding",
+      "default": 64
+    }
+  ],
+  "presets": [
+    {
+      "name": "Fit Advisor Widget"
+    }
+  ]
+}
+{% endschema %}

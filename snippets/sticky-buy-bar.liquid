@@ -1,0 +1,144 @@
+{%- style -%}
+  .sticky-buy-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #FFFFFF;
+    border-top: 1px solid rgba(23, 26, 96, 0.12);
+    box-shadow: 0 -10px 30px rgba(0, 0, 0, 0.08);
+    z-index: 999;
+    transform: translateY(100%);
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    padding: 1rem 2rem;
+  }
+
+  .sticky-buy-bar.is-visible {
+    transform: translateY(0);
+  }
+
+  .sticky-buy-bar__container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .sticky-buy-bar__info {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .sticky-buy-bar__img {
+    width: 48px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 4px;
+    background: #F4F6F9;
+  }
+
+  .sticky-buy-bar__title {
+    font-family: 'Playfair Display', serif !important;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #171A60;
+    margin: 0 0 0.2rem 0;
+  }
+
+  .sticky-buy-bar__price {
+    font-family: 'Space Mono', monospace !important;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #0077A0;
+  }
+
+  .sticky-buy-bar__actions {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .sticky-buy-bar__btn {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    background: #171A60;
+    color: #FFFFFF;
+    padding: 1.2rem 2.8rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .sticky-buy-bar__btn:hover {
+    background: #0077A0;
+  }
+{%- endstyle -%}
+
+<div id="StickyBuyBar" class="sticky-buy-bar">
+  <div class="sticky-buy-bar__container">
+    <div class="sticky-buy-bar__info">
+      {%- if product.featured_image != blank -%}
+        <img src="{{ product.featured_image | image_url: width: 100 }}" alt="{{ product.title | escape }}" class="sticky-buy-bar__img" width="48" height="64" loading="lazy">
+      {%- endif -%}
+      <div>
+        <h4 class="sticky-buy-bar__title">{{ product.title | escape }}</h4>
+        <span class="sticky-buy-bar__price">{{ product.price | money }}</span>
+      </div>
+    </div>
+
+    <div class="sticky-buy-bar__actions">
+      <button type="button" class="sticky-buy-bar__btn" onclick="document.querySelector('.product-form__submit')?.click()">
+        Add to Bag — {{ product.price | money }}
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const stickyBar = document.getElementById('StickyBuyBar');
+    const mainBuyBtn = document.querySelector('.product-form__submit');
+    const stickyBtn = stickyBar?.querySelector('.sticky-buy-bar__btn');
+    const stickyPrice = stickyBar?.querySelector('.sticky-buy-bar__price');
+
+    if (stickyBar && mainBuyBtn) {
+      const observer = new IntersectionObserver(([entry]) => {
+        if (!entry.isIntersecting) {
+          stickyBar.classList.add('is-visible');
+        } else {
+          stickyBar.classList.remove('is-visible');
+        }
+      }, { threshold: 0.1 });
+
+      observer.observe(mainBuyBtn);
+
+      if (typeof subscribe !== 'undefined' && typeof PUB_SUB_EVENTS !== 'undefined') {
+        subscribe(PUB_SUB_EVENTS.variantChange, ({ data }) => {
+          if (!data.variant) {
+            if (stickyBtn) {
+              stickyBtn.disabled = true;
+              stickyBtn.textContent = 'Unavailable';
+            }
+            return;
+          }
+          const isAvailable = data.variant.available;
+          if (stickyBtn) {
+            stickyBtn.disabled = !isAvailable;
+            stickyBtn.textContent = isAvailable ? 'Add to Bag' : 'Sold Out';
+          }
+          if (stickyPrice && data.html) {
+            const newPrice = data.html.querySelector('.price-item--regular, .price-item--sale')?.textContent;
+            if (newPrice) stickyPrice.textContent = newPrice.trim();
+          }
+        });
+      }
+    }
+  });
+</script>

@@ -1,0 +1,177 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "contact_form_U9ptC4": {
+      "type": "contact-form",
+      "blocks": {
+        "field_row_B7EVcM": {
+          "type": "field_row",
+          "settings": {
+            "input_1_enabled": true,
+            "input_1_type": "name",
+            "input_1_required": false,
+            "input_1_error_message": "This field is required",
+            "input_1_custom_name": "Custom input name",
+            "input_2_enabled": true,
+            "input_2_type": "email",
+            "input_2_required": false,
+            "input_2_error_message": "This field is required",
+            "input_2_custom_name": "Custom input name"
+          }
+        },
+        "field_row_HX8WGh": {
+          "type": "field_row",
+          "settings": {
+            "input_1_enabled": true,
+            "input_1_type": "phone",
+            "input_1_required": false,
+            "input_1_error_message": "This field is required",
+            "input_1_custom_name": "Custom input name",
+            "input_2_enabled": false,
+            "input_2_type": "custom",
+            "input_2_required": false,
+            "input_2_error_message": "This field is required",
+            "input_2_custom_name": "Custom input name"
+          }
+        },
+        "textarea_trVaGc": {
+          "type": "textarea",
+          "settings": {
+            "input_type": "comment",
+            "input_required": false,
+            "input_error_message": "This field is required",
+            "input_custom_name": "Custom name"
+          }
+        }
+      },
+      "block_order": [
+        "field_row_B7EVcM",
+        "field_row_HX8WGh",
+        "textarea_trVaGc"
+      ],
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Get in touch",
+        "title_highlight_1": "solid-color",
+        "title_highlight_1_gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+        "title_highlight_1_bg-color": "#f9efff",
+        "title_highlight_1_color": "#6d388b",
+        "highlighted-1_border_radius": 8,
+        "highlighted-1_border_width": 0,
+        "highlighted-1_border": "solid",
+        "highlighted-1_border_color": "#6d388b",
+        "highlighted-1_padding-block": 0.3,
+        "highlighted-1_padding-inline": 0.3,
+        "title_highlight_1_underline-thickness": 2,
+        "title_highlight_1_underline-color": "#6d388b",
+        "title_highlight_1_underline-color--gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+        "title_highlight_1_underline-color-position": 25,
+        "title_highlight_1_handwritten-color": "#6d388b",
+        "title_highlight_1_handwritten-stroke-width": 3,
+        "title_highlight_1_handwritten-position": 60,
+        "title_highlight_2": "none",
+        "title_highlight_2_gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+        "title_highlight_2_bg-color": "#f9efff",
+        "title_highlight_2_color": "#6d388b",
+        "highlighted-2_border_radius": 8,
+        "highlighted-2_border_width": 0,
+        "highlighted-2_border": "solid",
+        "highlighted-2_border_color": "#6d388b",
+        "highlighted-2_padding-block": 0.3,
+        "highlighted-2_padding-inline": 0.3,
+        "title_highlight_2_underline-thickness": 2,
+        "title_highlight_2_underline-color": "#6d388b",
+        "title_highlight_2_underline-color--gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+        "title_highlight_2_underline-color-position": 25,
+        "title_highlight_2_handwritten-color": "#6d388b",
+        "title_highlight_2_handwritten-stroke-width": 3,
+        "title_highlight_2_handwritten-position": 60,
+        "heading_size": "h1",
+        "custom_desktop_size": 39,
+        "custom_mobile_size": 28,
+        "button_full_width": true,
+        "color_scheme": "background-1",
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "pattern_bg": "none",
+        "pattern_color": "#6d388b",
+        "pattern_size": 20,
+        "pattern_thickness": 2,
+        "pattern_angle": 45,
+        "pattern_opacity_mode": "low",
+        "pattern_opacity_low": 7,
+        "pattern_opacity_normal": 80,
+        "success_icon": "check_circle",
+        "success_icon_filled": false,
+        "success_text_color": "#28c100",
+        "success_bg_color": "#f2ffed",
+        "success_border_radius": 8,
+        "success_border_width": 1,
+        "success_border_color": "#28c100",
+        "errors_icon": "error",
+        "errors_icon_filled": false,
+        "errors_text_color": "#ff0000",
+        "errors_bg_color": "#fff5f5",
+        "errors_border_radius": 8,
+        "errors_border_width": 1,
+        "errors_border_color": "#ff0000",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "show_contact_details": true,
+        "card_1_title": "Email Us",
+        "contact_email": "contact@pawosa.com",
+        "card_1_subtext": "+1 (386) 320-8813 | We'll reply as soon as possible",
+        "card_2_title": "Our Address",
+        "contact_address": "<p>491 Fort Smith Blvd, Deltona, FL 32738, United States</p>",
+        "card_3_title": "Business Hours",
+        "business_hours": "<p>Mon – Fri: 9:00 AM – 6:00 PM (EST)<br/>Sat – Sun: Closed</p>",
+        "panel_col_1_title": "Before returning an item",
+        "panel_col_1_desc": "Please review our Return Policy and contact us before sending any item back. This helps us process your return faster.",
+        "panel_col_1_btn_label": "View Return Policy",
+        "panel_col_1_btn_url": "/policies/refund-policy",
+        "panel_col_2_title": "Track your order",
+        "panel_col_2_desc": "Check your order status and real-time shipping updates anytime.",
+        "panel_col_2_btn_label": "Track Order",
+        "panel_col_2_btn_url": "shopify://pages/track-order",
+        "panel_col_3_title": "Need help with something else?",
+        "panel_col_3_desc": "Visit our Help Center for shipping, returns, product care, and more.",
+        "panel_col_3_btn_label": "Visit Help Center",
+        "panel_col_3_btn_url": "/pages/faq",
+        "show_trust_badges": true,
+        "badge_1_title": "Secure Payments",
+        "badge_1_desc": "Your payment is safe and encrypted",
+        "badge_2_title": "Fast Shipping",
+        "badge_2_desc": "Quick delivery to your doorstep",
+        "badge_3_title": "Easy Returns",
+        "badge_3_desc": "30-day return policy for peace of mind",
+        "badge_4_title": "Customer Support",
+        "badge_4_desc": "Friendly support whenever you need it",
+        "trust_footer_text": "We're committed to making your experience simple, safe, and satisfying."
+      }
+    }
+  },
+  "order": [
+    "main",
+    "contact_form_U9ptC4"
+  ]
+}

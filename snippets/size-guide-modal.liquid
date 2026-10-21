@@ -1,0 +1,350 @@
+{%- style -%}
+  /* ── Size Guide Modal Overlay ── */
+  .size-guide-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(18, 18, 18, 0.65);
+    backdrop-filter: blur(5px);
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    padding: 1.6rem;
+    box-sizing: border-box;
+  }
+
+  .size-guide-modal.is-open {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /* ── Modal Container ── */
+  .size-guide-modal__content {
+    background: #FFFFFF;
+    width: 100%;
+    max-width: 920px;
+    border-radius: 10px;
+    padding: 3.2rem 3.6rem 3.6rem;
+    position: relative;
+    box-shadow: 0 24px 56px rgba(23, 26, 96, 0.18);
+    max-height: 90vh;
+    overflow-y: auto;
+    box-sizing: border-box;
+  }
+
+  /* ── Close Button ── */
+  .size-guide-modal__close {
+    position: absolute;
+    top: 1.6rem;
+    right: 2rem;
+    font-size: 2.6rem;
+    line-height: 1;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #171A60;
+    opacity: 0.6;
+    transition: opacity 0.2s ease;
+    z-index: 2;
+  }
+
+  .size-guide-modal__close:hover {
+    opacity: 1;
+  }
+
+  /* ── Header ── */
+  .size-guide-modal__header-label {
+    font-family: 'Space Mono', monospace !important;
+    font-size: 1.15rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #171A60;
+    margin: 0 0 0.8rem 0;
+  }
+
+  .size-guide-modal__divider {
+    width: 100%;
+    height: 3px;
+    background: #0077A0;
+    border: none;
+    margin: 0 0 2rem 0;
+    border-radius: 2px;
+  }
+
+  /* ── Fitted & Responsive Diagram Photo Container ── */
+  .size-guide-photo-wrapper {
+    width: 100%;
+    margin-bottom: 2.4rem;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #F8FAFD;
+    border: 1px solid rgba(23, 26, 96, 0.12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2rem;
+    box-sizing: border-box;
+  }
+
+  .size-guide-photo-img {
+    width: 100%;
+    max-height: 280px;
+    object-fit: contain;
+    display: block;
+    border-radius: 6px;
+  }
+
+  /* ── Table Wrapper ── */
+  .size-guide-table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 6px;
+    border: 1px solid rgba(23, 26, 96, 0.1);
+  }
+
+  .size-guide-table {
+    width: 100%;
+    min-width: 640px;
+    border-collapse: collapse;
+  }
+
+  .size-guide-table thead tr {
+    background: #171A60;
+  }
+
+  .size-guide-table thead th {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 1.2rem 1.4rem;
+    text-align: center;
+    white-space: nowrap;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .size-guide-table thead th:first-child {
+    text-align: left;
+    padding-left: 2rem;
+    border-radius: 6px 0 0 0;
+    min-width: 110px;
+  }
+
+  .size-guide-table thead th:last-child {
+    border-right: none;
+    border-radius: 0 6px 0 0;
+  }
+
+  .size-guide-table tbody tr:nth-child(odd) {
+    background: #FFFFFF;
+  }
+
+  .size-guide-table tbody tr:nth-child(even) {
+    background: #F4F6F9;
+  }
+
+  .size-guide-table tbody tr:hover {
+    background: #EBF4FF;
+    transition: background 0.15s ease;
+  }
+
+  .size-guide-table tbody td {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 1.35rem;
+    text-align: center;
+    padding: 1.1rem 1.4rem;
+    color: #2D3748;
+    border-right: 1px solid rgba(23, 26, 96, 0.07);
+    border-bottom: 1px solid rgba(23, 26, 96, 0.07);
+  }
+
+  .size-guide-table tbody td:last-child {
+    border-right: none;
+  }
+
+  .size-guide-table tbody td.size-cell {
+    font-weight: 700;
+    font-size: 1.35rem;
+    color: #171A60;
+    text-align: left;
+    padding-left: 2rem;
+  }
+
+  /* ── Notes Callout Box ── */
+  .size-guide-notes {
+    margin-top: 2rem;
+    padding: 1.6rem 2rem;
+    border-left: 4px solid #0077A0;
+    background: #F8FAFD;
+    border-radius: 0 6px 6px 0;
+  }
+
+  .size-guide-notes__title {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #171A60;
+    margin: 0 0 0.8rem 0;
+  }
+
+  .size-guide-notes__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .size-guide-notes__list li {
+    font-family: 'Inter', sans-serif !important;
+    font-size: 1.25rem;
+    color: #4A5568;
+    padding: 0.3rem 0;
+    padding-left: 1.2rem;
+    position: relative;
+  }
+
+  .size-guide-notes__list li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #0077A0;
+    font-weight: 700;
+  }
+
+  /* ── Mobile Responsive ── */
+  @media screen and (max-width: 750px) {
+    .size-guide-modal__content {
+      padding: 2.4rem 2rem 2.8rem;
+    }
+    .size-guide-modal__header-label {
+      font-size: 1rem;
+    }
+    .size-guide-photo-img {
+      max-height: 200px;
+    }
+  }
+{%- endstyle -%}
+
+<div id="SizeGuideModal" class="size-guide-modal" onclick="if(event.target === this) closeSizeGuide()">
+  <div class="size-guide-modal__content">
+
+    <button type="button" class="size-guide-modal__close" onclick="closeSizeGuide()" aria-label="Close size guide">&times;</button>
+
+    <!-- Header Label -->
+    <h3 class="size-guide-modal__header-title" style="font-family: 'Playfair Display', serif !important; font-size: 2.2rem; color: #171A60; margin: 0 0 0.4rem 0; font-weight: 500;">Tailored &amp; Structured Fit Guide</h3>
+    <p class="size-guide-modal__header-label" style="font-family: 'Space Mono', monospace !important; font-size: 1.1rem; color: #6C757D; letter-spacing: 0.08em; text-transform: uppercase; margin: 0 0 1rem 0;">All measurements are provided in inches (in)</p>
+    <hr class="size-guide-modal__divider">
+
+    <!-- Responsive & Fitted Measurement Photo -->
+    <div class="size-guide-photo-wrapper">
+      {%- if custom_image != blank -%}
+        <img src="{{ custom_image | image_url: width: 1200 }}" alt="Formal Shirt Measurement Points Diagram" class="size-guide-photo-img" loading="lazy">
+      {%- else -%}
+        <img src="{{ 'size_guide_diagram.jpg' | asset_url }}" alt="Formal Shirt Measurement Points Diagram" class="size-guide-photo-img" loading="lazy">
+      {%- endif -%}
+    </div>
+
+    <!-- 9-Column Measurement Table -->
+    <div class="size-guide-table-wrapper">
+      <table class="size-guide-table">
+        <thead>
+          <tr>
+            <th>Size</th>
+            <th>Body Length</th>
+            <th>Chest</th>
+            <th>Belly</th>
+            <th>Waist</th>
+            <th>Shoulder</th>
+            <th>Collar</th>
+            <th>Sleeve Length</th>
+            <th>Wrist</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="size-cell">M</td>
+            <td>28</td>
+            <td>43</td>
+            <td>40</td>
+            <td>41</td>
+            <td>17</td>
+            <td>15</td>
+            <td>24</td>
+            <td>9</td>
+          </tr>
+          <tr>
+            <td class="size-cell">L</td>
+            <td>29</td>
+            <td>45</td>
+            <td>42</td>
+            <td>43</td>
+            <td>18</td>
+            <td>15.5</td>
+            <td>25</td>
+            <td>9.5</td>
+          </tr>
+          <tr>
+            <td class="size-cell">XL</td>
+            <td>30</td>
+            <td>47</td>
+            <td>44</td>
+            <td>45</td>
+            <td>18.5</td>
+            <td>16</td>
+            <td>25.5</td>
+            <td>9.75</td>
+          </tr>
+          <tr>
+            <td class="size-cell">2XL (XXL)</td>
+            <td>31</td>
+            <td>49</td>
+            <td>46</td>
+            <td>47</td>
+            <td>20</td>
+            <td>16.5</td>
+            <td>26</td>
+            <td>10</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Measurement Notes -->
+    <div class="size-guide-notes">
+      <p class="size-guide-notes__title">Measurement &amp; Production Notes:</p>
+      <ul class="size-guide-notes__list">
+        <li>All specified values are exact finished garment measurements in inches (in).</li>
+        <li>A standard manufacturing tolerance of ±0.5 inches may apply.</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+<script>
+  function openSizeGuide() {
+    var modal = document.getElementById('SizeGuideModal');
+    if (modal) {
+      modal.classList.add('is-open');
+      document.body.style.overflow = 'hidden';
+    }
+  }
+  function closeSizeGuide() {
+    var modal = document.getElementById('SizeGuideModal');
+    if (modal) {
+      modal.classList.remove('is-open');
+      document.body.style.overflow = '';
+    }
+  }
+  // Close on Escape key
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeSizeGuide();
+  });
+</script>

@@ -1,0 +1,151 @@
+/* ============================================================
+   Canine Styles design system — signature layer for Pawosa (Shrine PRO)
+   Ground truth: DESIGN.md (extracted from caninestyles.com, 2026-07-30)
+   Loads after base.css via layout/theme.liquid.
+
+   NOTE: This file lives at assets/stepprs-theme.css because
+   layout/theme.liquid already includes that asset; keeping the
+   filename avoids touching the layout file. It fully replaces the
+   previous Wild One layer.
+
+   Fonts come from the Shopify library (Cormorant 400 headings,
+   Poppins 300 body) via theme settings — no imports needed here.
+
+   Contents
+   1. Commerce voice: product titles, card headings, prices stay Poppins
+   2. Control surfaces: uppercase letterspaced buttons + nav
+   3. Accents: marigold stars/links, cream badges, square selected states
+   4. Guards & inherited fixes
+   ============================================================ */
+
+/* 1 ── Commerce voice ----------------------------------------- */
+/* Cormorant (heading font) is editorial-only: section and collection
+   headings inherit it from settings. Product titles, card headings, and
+   prices stay in the commerce sans per the reference system. */
+.product__title h1,
+.product__title .h2,
+.card__heading,
+.card__heading .full-unstyled-link {
+  font-family: var(--font-body-family);
+  font-weight: 500;
+  letter-spacing: normal;
+}
+
+.price {
+  font-family: var(--font-body-family);
+  font-weight: 600;
+  letter-spacing: normal;
+}
+
+/* 2 ── Control surfaces --------------------------------------- */
+/* Buttons: square (radius via settings), uppercase, letterspaced, and
+   pinned to the body family so the serif heading font never leaks in. */
+.button,
+.shopify-challenge__button,
+.customer button,
+.button-label {
+  font-family: var(--font-body-family);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+/* Header nav: uppercase micro-labels, boutique-quiet. */
+.header__menu-item {
+  text-transform: uppercase;
+  letter-spacing: 0.06rem;
+}
+
+/* 3 ── Accents ------------------------------------------------- */
+/* Marigold crest accent: rating stars and breadcrumb links. */
+.rating,
+.rating-star {
+  color: #f78a3d;
+  --color-rating-star: #f78a3d;
+}
+
+.breadcrumbs a,
+.breadcrumb a {
+  color: #f78a3d;
+}
+
+/* Selected variant option: square, white fill, firm ink ring. */
+.product-form__input input[type="radio"]:checked + label {
+  background-color: #ffffff;
+  color: #000000;
+  border-color: #000000;
+  border-width: 2px;
+}
+
+/* Card badges: cream heritage pills with ink text. Sale/sold-out badges
+   use the inverse scheme (black/white) via settings and are excluded. */
+.card__badge .badge:not([class*="inverse"]) {
+  background-color: #faefd9;
+  color: #000000;
+  border-color: rgba(0, 0, 0, 0.75);
+}
+
+/* 4 ── Guards & inherited fixes -------------------------------- */
+/* Links at 0.85 alpha per the reference system (sharpen on hover). */
+:root {
+  --alpha-link: 0.85;
+}
+
+/* Highlight-underline guard: per-section underline offsets were tuned for
+   earlier fonts; under a new heading font the same offsets can push the bar
+   into the text (strike-through). Pin decorative underlines just below the
+   text regardless of stored per-section positions. */
+.heading.title-with-highlight-1--underline strong:after,
+.heading.title-with-highlight-2--underline em:after {
+  bottom: 0;
+  transform: translateY(0.12em);
+}
+
+/* Heading-highlighter guard: the animated highlighter bar is positioned at
+   a fixed percentage of the heading box, tuned for a previous font's line
+   wrapping. Pin the animated sweep to the baseline so it always reads as an
+   underline, never a strike-through. */
+.heading.heading-highlighter-active::before {
+  top: auto !important;
+  bottom: 0 !important;
+}
+
+/* 5 ── Mobile Footer Centering ---------------------------------- */
+@media screen and (max-width: 749px) {
+  .footer,
+  .footer__content-top,
+  .footer__content-bottom,
+  .footer__content-bottom-wrapper,
+  .footer-block,
+  .footer-block__details-content,
+  .footer-block__heading,
+  .footer-block__brand-info,
+  .footer__follow-on-shop,
+  .footer__payment,
+  .footer__copyright {
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .footer-block__details-content .list-menu__item,
+  .footer-block__details-content li {
+    justify-content: center !important;
+    text-align: center !important;
+  }
+  .footer__payment .list-payment {
+    justify-content: center !important;
+  }
+  .footer-block__image-wrapper {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .footer-block--newsletter .newsletter-form {
+    align-items: center !important;
+    justify-content: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
