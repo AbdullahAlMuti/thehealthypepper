@@ -1,0 +1,99 @@
+{
+  "id": 8599547871411,
+  "title": "Performance Whey Protein Blend (Chocolate)",
+  "handle": "performance-whey-protein-blend-chocolate",
+  "body_html": "<p>Maintaining muscle mass is important at every stage of life, whether you're an athlete, fitness enthusiast, busy professional, or simply looking to stay active and strong. Our<strong> Chocolate Whey Protein</strong> delivers 22 grams of protein per serving from <strong>a blend of whey protein isolate and whey protein concentrate </strong>to help support your daily protein intake. With a rich chocolate flavor and smooth texture, it's an easy addition to your wellness routine.</p><p>Protein plays a vital role in supporting muscle maintenance and normal recovery, especially when combined with regular physical activity and a balanced diet. This formula provides all essential amino acids naturally found in whey protein, making it a convenient option for post-workout nutrition or everyday protein support. Enjoy it after exercise, between meals, or whenever you need a protein boost.</p><p>We've also included resistant potato starch, a source of dietary fiber that complements this protein-forward formula. Naturally flavored and sweetened with stevia leaf extract, it contains no artificial sweeteners while delivering a satisfying chocolate taste. Simply mix with cold water, blend, or shake for a convenient and delicious protein shake anytime.</p><p><br><strong>Ingredients: </strong>Whey Protein Blend (Whey Protein Isolate, Whey Protein Concentrate) (22g), Solnul® (Resistant Potato Starch), Natural Flavors, Pink Himalayan Crystal Salt, Guar Gum, Xanthan Gum, and Stevia Leaf Extract.<br><strong>Manufacturer's country: </strong>USA<br><strong>Product amount (oz/lbs/g):</strong> 18.55 oz / 1.16 lb / 525 g<br><strong>Gross weight (oz/lbs/g):</strong> 22.22 oz / 1.39 lb / 630 g<br><strong>Suggested use: </strong>Add one serving (2 scoops) to 8–12 oz (240–355 ml) of cold water and blend or shake thoroughly.<br><strong>Warning: </strong>Do not exceed recommended dose. Consult a physician if pregnant, nursing, under 18, or have a medical condition.<br>KEEP OUT OF REACH OF CHILDREN. DO NOT USE IF SAFETY SEAL IS DAMAGED OR MISSING. STORE IN A COOL, DRY PLACE.</p><p></p><p><strong>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.</strong></p> <p>\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/4c36cdfa54b26cb4291c359dc2cd7910d868f8ae-125x181.png\" alt=\"Gluten-free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/0e9fc04e2f9353234d2b7794b96613f19c576efb-126x183.png\" alt=\"Non-GMO\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/2390692fa16a1bad9ae4453609bcd8b61afbb0b2-149x180.png\" alt=\"Vegetarian\" style=\"height: 6rem; width: auto;\"></p>",
+  "published_at": "2026-08-10T18:39:00-06:00",
+  "created_at": "2026-08-10T18:39:00-06:00",
+  "updated_at": "2026-10-21T03:24:51-06:00",
+  "vendor": "The Healthy Pepper",
+  "product_type": "Proteins",
+  "tags": [],
+  "variants": [
+    {
+      "id": 45813712093363,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "JAG42PECH",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "39.95",
+      "grams": 630,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 8599547871411,
+      "created_at": "2026-08-10T18:39:01-06:00",
+      "updated_at": "2026-10-21T03:24:51-06:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 42143190450355,
+      "created_at": "2026-09-16T12:58:20-06:00",
+      "position": 1,
+      "updated_at": "2026-09-16T12:58:22-06:00",
+      "product_id": 8599547871411,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789585090925-generated-label-image-0.jpg?v=1789585102",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42143190483123,
+      "created_at": "2026-09-16T12:58:20-06:00",
+      "position": 2,
+      "updated_at": "2026-09-16T12:58:22-06:00",
+      "product_id": 8599547871411,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789585090924-generated-label-image-1.jpg?v=1789585102",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42143190515891,
+      "created_at": "2026-09-16T12:58:20-06:00",
+      "position": 3,
+      "updated_at": "2026-09-16T12:58:22-06:00",
+      "product_id": 8599547871411,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789585090925-generated-label-image-2.jpg?v=1789585102",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42143190548659,
+      "created_at": "2026-09-16T12:58:20-06:00",
+      "position": 4,
+      "updated_at": "2026-09-16T12:58:22-06:00",
+      "product_id": 8599547871411,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789585090938-generated-label-image-3.jpg?v=1789585102",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42143190581427,
+      "created_at": "2026-09-16T12:58:20-06:00",
+      "position": 5,
+      "updated_at": "2026-09-16T12:58:22-06:00",
+      "product_id": 8599547871411,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789585090938-generated-label-image-4.jpg?v=1789585102",
+      "width": 2048,
+      "height": 2048
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

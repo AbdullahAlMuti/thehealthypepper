@@ -1,0 +1,99 @@
+{
+  "id": 8625535647923,
+  "title": "Lion's Mane Mushroom",
+  "handle": "lions-mane-mushroom",
+  "body_html": "<p>Lions Mane Mushroom, also known as yamabushitake, is a species of mushroom that has been well-studied for its medical use in countries such as China, India, Japan, and Korea.</p><p><br></p><p>Only recently has Lions Mane made its way into the Western world as a supplement to improve focus and act as a holistic energy source for the body.</p><p><br></p><p>Nootropics and other mushroom extracts are trending because of their numerous health benefits. Nootropics found in Lions Mane, such as hericenones and erinacines, are said to have neuroprotective effects and stimulate the growth of neurons in the brain.*</p><p><br></p><p><strong>Ingredients: </strong>Organic Lion’s Mane (Hericum erinaceus) Mushroom Fruiting Body &amp; Mycelium Powder (Standardized to 40% polysaccharides [400mg]), Organic capsule (pullulan, water), organic pea starch.</p><p><strong>Manufacturer Country: </strong>USA</p><p><strong>Product Amount:</strong> 60 vegan capsules</p><p><strong>Gross Weight: </strong>0.2lb (90g)</p><p><strong>Suggested Use: </strong>As a dietary supplement, adults take two (2) capsules daily or as directed by a health care professional. Can be taken with food or on an empty stomach.</p><p><strong>Warning:</strong> Keep out of reach of children. Do not use if the safety seal is damaged or missing. Store in a cool, dry place.</p><p><br></p><p><strong>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</strong></p> <p>\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/4c36cdfa54b26cb4291c359dc2cd7910d868f8ae-125x181.png\" alt=\"Gluten-free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/2390692fa16a1bad9ae4453609bcd8b61afbb0b2-149x180.png\" alt=\"Vegetarian\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/cc4066d915d42e195ee9cf5bbce01a99f006af1e-126x181.png\" alt=\"Lactose-free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/0e9fc04e2f9353234d2b7794b96613f19c576efb-126x183.png\" alt=\"Non-GMO\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/392fe7a0ceded284f4aeb9c2eeb40c638917d6be-149x180.png\" alt=\"Vegan friendly\" style=\"height: 6rem; width: auto;\"></p>",
+  "published_at": "2026-08-25T13:00:31-06:00",
+  "created_at": "2026-08-25T13:00:31-06:00",
+  "updated_at": "2026-10-21T03:24:51-06:00",
+  "vendor": "The Healthy Pepper",
+  "product_type": "Mushroom Products",
+  "tags": [],
+  "variants": [
+    {
+      "id": 45898250059955,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "RLC3LION",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "24.95",
+      "grams": 91,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 8625535647923,
+      "created_at": "2026-08-25T13:00:32-06:00",
+      "updated_at": "2026-10-21T03:24:51-06:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 42177389559987,
+      "created_at": "2026-09-19T17:40:58-06:00",
+      "position": 1,
+      "updated_at": "2026-09-19T17:41:00-06:00",
+      "product_id": 8625535647923,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789860917018-generated-label-image-0.jpg?v=1789861260",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177389592755,
+      "created_at": "2026-09-19T17:40:58-06:00",
+      "position": 2,
+      "updated_at": "2026-09-19T17:41:00-06:00",
+      "product_id": 8625535647923,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789860917030-generated-label-image-1.jpg?v=1789861260",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177389625523,
+      "created_at": "2026-09-19T17:40:58-06:00",
+      "position": 3,
+      "updated_at": "2026-09-19T17:41:00-06:00",
+      "product_id": 8625535647923,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789860917035-generated-label-image-2.jpg?v=1789861260",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177389658291,
+      "created_at": "2026-09-19T17:40:58-06:00",
+      "position": 4,
+      "updated_at": "2026-09-19T17:41:00-06:00",
+      "product_id": 8625535647923,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789860917029-generated-label-image-3.jpg?v=1789861260",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177389691059,
+      "created_at": "2026-09-19T17:40:58-06:00",
+      "position": 5,
+      "updated_at": "2026-09-19T17:41:00-06:00",
+      "product_id": 8625535647923,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/20250813160204-rlc3lion.png?v=1789861260",
+      "width": 482,
+      "height": 389
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

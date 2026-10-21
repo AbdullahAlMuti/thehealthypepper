@@ -1,0 +1,110 @@
+{
+  "id": 8707627286707,
+  "title": "Keto BHB",
+  "handle": "keto-bhb",
+  "body_html": "<p>This keto supplement is designed as a dietary aid to support the body's transition into ketosis, thereby promoting weight loss while supplying essential nutrients. Its formula integrates Calcium Citrate, MCT Powder, and BHB salts (Calcium BHB, Magnesium BHB, and Sodium BHB), aiming to facilitate a smooth transition to ketosis, enhance energy levels, and support metabolic health. Ideal for daily intake, this supplement provides a targeted approach to keto diet support, ensuring your body receives the necessary components for optimal performance without relying on artificial additives.*</p><p><br></p><p><strong>Ingredients: </strong>Calcium Citrate, MCT Powder, Calcium BHB (β-Hydroxybutyric Acid), Magnesium BHB (β-Hydroxybutyric Acid), Sodium BHB (β-Hydroxybutyric Acid)</p><p><strong>Manufacturer's country: </strong>USA</p><p><strong>Product amount: </strong>60 capsules</p><p><strong>Gross weight (oz/lbs/g):</strong> 2.4 oz / 0.15 lbs / 68 g</p><p><strong>Suggested use:</strong> As a dietary supplement, adults take two (2) capsules daily. For best results, take with 6-8 oz of water or as directed by healthcare professional.</p><p><strong>Warning:</strong> Do not exceed recommended dose. Pregnant or nursing mothers, children under the age of 18, and individuals with known medical conditions should consult a physician before using this or any dietary supplement. KEEP OUT OF THE REACH OF CHILDREN. DO NOT USE IF SAFETY SEAL IS DAMAGED OR MISSING. STORE IN A COOL, DRY PLACE.</p><p><br></p><p><strong>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.</strong></p>",
+  "published_at": "2026-09-24T19:35:56-06:00",
+  "created_at": "2026-09-24T19:35:56-06:00",
+  "updated_at": "2026-10-21T03:24:51-06:00",
+  "vendor": "The Healthy Pepper",
+  "product_type": "Specialty Supplements",
+  "tags": [],
+  "variants": [
+    {
+      "id": 46085887492275,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "JTP32KETO",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "19.95",
+      "grams": 68,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 8707627286707,
+      "created_at": "2026-09-24T19:35:57-06:00",
+      "updated_at": "2026-10-21T03:24:51-06:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 42207359303859,
+      "created_at": "2026-09-24T19:35:56-06:00",
+      "position": 1,
+      "updated_at": "2026-09-24T19:35:58-06:00",
+      "product_id": 8707627286707,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1790300117211-generated-label-image-0.jpg?v=1790300158",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42207359336627,
+      "created_at": "2026-09-24T19:35:56-06:00",
+      "position": 2,
+      "updated_at": "2026-09-24T19:35:58-06:00",
+      "product_id": 8707627286707,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1790300117198-generated-label-image-1.jpg?v=1790300158",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42207359369395,
+      "created_at": "2026-09-24T19:35:56-06:00",
+      "position": 3,
+      "updated_at": "2026-09-24T19:35:58-06:00",
+      "product_id": 8707627286707,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1790300117198-generated-label-image-2.jpg?v=1790300158",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42207359402163,
+      "created_at": "2026-09-24T19:35:56-06:00",
+      "position": 4,
+      "updated_at": "2026-09-24T19:35:58-06:00",
+      "product_id": 8707627286707,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1790300117211-generated-label-image-3.jpg?v=1790300158",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42207359434931,
+      "created_at": "2026-09-24T19:35:56-06:00",
+      "position": 5,
+      "updated_at": "2026-09-24T19:35:58-06:00",
+      "product_id": 8707627286707,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1790300117211-generated-label-image-4.jpg?v=1790300158",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42207359467699,
+      "created_at": "2026-09-24T19:35:56-06:00",
+      "position": 6,
+      "updated_at": "2026-09-24T19:35:58-06:00",
+      "product_id": 8707627286707,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/6502648bccb0149e32218f3e631260acad7b6bae-1200x1448.png?v=1790300158",
+      "width": 1200,
+      "height": 1448
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

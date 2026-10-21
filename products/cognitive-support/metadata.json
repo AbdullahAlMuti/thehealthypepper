@@ -1,0 +1,110 @@
+{
+  "id": 8599546986675,
+  "title": "Cognitive Support",
+  "handle": "cognitive-support",
+  "body_html": "<p>This cognitive enhancement supplement is designed to support normal brain functions through a blend of natural compounds. It combines Niacin, Vitamin B6, GABA, L-Tyrosine, and other key ingredients like Bacopa monnieri and Huperzine A, aimed at promoting normal mental clarity, focus, and cognitive performance. Ideal for daily use, this supplement is dedicated to supporting your brain's health and enhancing cognitive functions using high-quality, natural ingredients, without artificial additives.*</p><p><br></p><p><strong>Ingredients:</strong> Niacin (as niacinamide); Vitamin B6 (as pyridoxine hydrochloride); GABA (Gamma-Aminobutyric Acid), L-Tyrosine, Caffeine, Bacopa monnieri Extract (whole herb), Phosphatidylserine 20% (sunflower), Alpha GPC (Alpha -glycerylphosphorylcholine) Powder, L-Theanine, Huperzine A 1% (Huperzia serrata) (whole herb)</p><p><strong>Manufacturer's country: </strong>USA</p><p><strong>Product amount:</strong> 30 capsules</p><p><strong>Gross weight (oz/lbs/g):</strong> 1.76 oz / 0.11 lbs / 50 g</p><p><strong>Suggested use:</strong> As a dietary supplement, adults take one (1) capsule daily. For best results, take with 6-8 oz of water or as directed by healthcare professional.</p><p><strong>Warning:</strong> Do not exceed recommended dose. Pregnant or nursing mothers, children under the age of 18, and individuals with known medical conditions should consult a physician before using this or any dietary supplement. KEEP OUT OF THE REACH OF CHILDREN. DO NOT USE IF SAFETY SEAL IS DAMAGED OR MISSING. STORE IN A COOL, DRY PLACE.</p><p><br></p><p><strong>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.</strong></p> <p>\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/0e9fc04e2f9353234d2b7794b96613f19c576efb-126x183.png\" alt=\"Non-GMO\" style=\"height: 6rem; width: auto;\"></p>",
+  "published_at": "2026-08-10T18:37:41-06:00",
+  "created_at": "2026-08-10T18:37:41-06:00",
+  "updated_at": "2026-10-21T03:24:51-06:00",
+  "vendor": "The Healthy Pepper",
+  "product_type": "Brain & Cognitive",
+  "tags": [],
+  "variants": [
+    {
+      "id": 45813711044787,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "JTP4CGNI",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "23.95",
+      "grams": 50,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 8599546986675,
+      "created_at": "2026-08-10T18:37:42-06:00",
+      "updated_at": "2026-10-21T03:24:51-06:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 42177391460531,
+      "created_at": "2026-09-19T17:41:01-06:00",
+      "position": 1,
+      "updated_at": "2026-09-19T17:41:02-06:00",
+      "product_id": 8599546986675,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789858489182-generated-label-image-0.jpg?v=1789861262",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177391493299,
+      "created_at": "2026-09-19T17:41:01-06:00",
+      "position": 2,
+      "updated_at": "2026-09-19T17:41:03-06:00",
+      "product_id": 8599546986675,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789858489191-generated-label-image-1.jpg?v=1789861263",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177391526067,
+      "created_at": "2026-09-19T17:41:01-06:00",
+      "position": 3,
+      "updated_at": "2026-09-19T17:41:03-06:00",
+      "product_id": 8599546986675,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789858489183-generated-label-image-2.jpg?v=1789861263",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177391558835,
+      "created_at": "2026-09-19T17:41:01-06:00",
+      "position": 4,
+      "updated_at": "2026-09-19T17:41:03-06:00",
+      "product_id": 8599546986675,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789858489170-generated-label-image-3.jpg?v=1789861263",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177391591603,
+      "created_at": "2026-09-19T17:41:01-06:00",
+      "position": 5,
+      "updated_at": "2026-09-19T17:41:03-06:00",
+      "product_id": 8599546986675,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789858489182-generated-label-image-4.jpg?v=1789861263",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177391624371,
+      "created_at": "2026-09-19T17:41:01-06:00",
+      "position": 6,
+      "updated_at": "2026-09-19T17:41:02-06:00",
+      "product_id": 8599546986675,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/20240305165317-jtp0cgni-sf.png?v=1789861262",
+      "width": 1200,
+      "height": 1222
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

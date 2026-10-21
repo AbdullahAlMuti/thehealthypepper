@@ -1,0 +1,110 @@
+{
+  "id": 8599545512115,
+  "title": "Advanced 100% Whey Protein Isolate (Chocolate)",
+  "handle": "advanced-100-whey-protein-isolate-chocolate",
+  "body_html": "<p>Advanced 100% Whey Protein Isolate (Chocolate) offers a rich, decadent chocolate flavor, crafted to deliver high-quality protein to support muscle growth and recovery. This versatile protein supplement is perfect for athletes and fitness enthusiasts looking for a delicious and effective post-workout shake or a protein boost anytime during the day.*</p><p><br></p><p><strong>Health Benefits:</strong></p><p>• High-Quality Protein: Each serving delivers 22g of pure whey protein isolate to aid in muscle recovery and growth.*</p><p>• Rich Chocolate Flavor: Enjoy the indulgent taste of chocolate in every scoop.</p><p>• Versatile Usage: Ideal for a post-workout shake or a nutritious protein boost anytime during the day.*</p><p>• Digestive Health: Contains apple pectin powder for added digestive support.*</p><p>• Healthy Fats: Includes MCT oil powder for quick energy and enhanced metabolism.*</p><p><br></p><p><strong>Ingredients: </strong>Whey Protein Isolate, Nidau Cocoa Powder, MCT Oil Powder, Natural Flavors, Nightfall Cocoa Powder, Sunflower Lecithin, Apple Pectin Powder, Sea Salt, Stevia Extract (leaf), Silicon Dioxide.</p><p><strong>Flavor: </strong>Chocolate</p><p><strong>Manufacturer's country: </strong>USA</p><p><strong>Product amount: </strong>29.60 oz./839 g</p><p><strong>Gross weight: </strong>2lb/910g</p><p><strong>Suggested use:</strong> As a dietary supplement, adults mix two (2) scoops with 6-8 oz. of water or favorite beverage daily. For best results, take 20-30 minutes before a meal with 8 oz. of water or as directed by your healthcare professional.</p><p><strong>Caution:</strong> Do not exceed recommended dose. Pregnant or nursing mothers, children under the age of 18, and individuals with a known medical condition should consult a physician before using this or any dietary supplement. KEEP OUT OF THE REACH OF CHILDREN. DO NOT USE IF SAFETY SEAL IS DAMAGED OR MISSING. STORE IN A COOL, DRY PLACE.</p><p><br></p><p><strong>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.</strong></p> <p>\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/2390692fa16a1bad9ae4453609bcd8b61afbb0b2-149x180.png\" alt=\"Vegetarian\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/0e9fc04e2f9353234d2b7794b96613f19c576efb-126x183.png\" alt=\"Non-GMO\" style=\"height: 6rem; width: auto;\"></p>",
+  "published_at": "2026-08-10T18:35:22-06:00",
+  "created_at": "2026-08-10T18:35:22-06:00",
+  "updated_at": "2026-10-21T03:24:51-06:00",
+  "vendor": "The Healthy Pepper",
+  "product_type": "Proteins",
+  "tags": [],
+  "variants": [
+    {
+      "id": 45813709177011,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "JTP7ADWC",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "50.95",
+      "grams": 907,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 8599545512115,
+      "created_at": "2026-08-10T18:35:23-06:00",
+      "updated_at": "2026-10-21T03:24:51-06:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 42207312740531,
+      "created_at": "2026-09-24T19:30:32-06:00",
+      "position": 1,
+      "updated_at": "2026-09-24T19:30:34-06:00",
+      "product_id": 8599545512115,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789932491464-generated-label-image-0.jpg?v=1790299834",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42207312773299,
+      "created_at": "2026-09-24T19:30:32-06:00",
+      "position": 2,
+      "updated_at": "2026-09-24T19:30:34-06:00",
+      "product_id": 8599545512115,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789932491423-generated-label-image-1.jpg?v=1790299834",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42207312806067,
+      "created_at": "2026-09-24T19:30:32-06:00",
+      "position": 3,
+      "updated_at": "2026-09-24T19:30:34-06:00",
+      "product_id": 8599545512115,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789932491435-generated-label-image-2.jpg?v=1790299834",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42207312838835,
+      "created_at": "2026-09-24T19:30:32-06:00",
+      "position": 4,
+      "updated_at": "2026-09-24T19:30:34-06:00",
+      "product_id": 8599545512115,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789932491422-generated-label-image-3.jpg?v=1790299834",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42207312871603,
+      "created_at": "2026-09-24T19:30:32-06:00",
+      "position": 5,
+      "updated_at": "2026-09-24T19:30:34-06:00",
+      "product_id": 8599545512115,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789932491436-generated-label-image-4.jpg?v=1790299834",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42207312904371,
+      "created_at": "2026-09-24T19:30:32-06:00",
+      "position": 6,
+      "updated_at": "2026-09-24T19:30:33-06:00",
+      "product_id": 8599545512115,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/20250617131029-jtp7adwc-sf.png?v=1790299833",
+      "width": 837,
+      "height": 1276
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

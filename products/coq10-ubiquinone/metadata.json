@@ -1,0 +1,110 @@
+{
+  "id": 8626216272051,
+  "title": "CoQ10 Ubiquinone",
+  "handle": "coq10-ubiquinone",
+  "body_html": "<p><strong>Coenzyme Q10 (CoQ10)</strong> is a naturally occurring nutrient found in every cell of the body, playing a key role in converting food into energy. As we age, natural levels of CoQ10 may decline, making supplementation a great way to help maintain healthy energy production and overall vitality. Our CoQ10 Ubiquinone Capsules are designed to support your body’s natural energy processes and antioxidant defenses. </p><p></p><p>CoQ10 is known for its role in supporting cardiovascular and cellular health. It helps protect cells from oxidative stress, contributing to overall well-being and stamina. Whether you’re supporting an active lifestyle or simply looking to maintain your energy throughout the day, CoQ10 offers a natural boost from within. </p><p></p><p>Each capsule is formulated with CoQ10 (Ubiquinone), free from artificial additives, our supplement is suitable for vegetarians and designed to fit seamlessly into your daily wellness routine. Give your body the nutritional support it needs to keep you energized, focused, and balanced.*</p><p></p><p><strong>Ingredients:</strong> Coenzyme Q-10 (Ubiquinone) 200mg, Hypromellose (vegetable capsule), Rice Flour.</p><p><strong>Manufacturer Country:</strong> USA</p><p><strong>Product Amount:</strong> 30 capsules</p><p><strong>Gross Weight</strong>: 1.6 oz / 0.1 lbs / 45 g</p><p><strong>Suggested Use:</strong> Take one (1) capsule once a day as a dietary supplement. For best results, take 20-30 min before a meal or as directed by your healthcare professional.</p><p><strong>Caution:</strong> Do not exceed recommended dose. Pregnant or nursing mothers, children under the age of 18, and individuals with a known medical condition should consult a physician before using this or any dietary supplement.</p><p><strong>Warning:</strong> Keep out of reach of children. Do not use if the safety seal is damaged or missing. Store in a cool, dry place.</p><p><br></p><p><strong>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</strong></p> <p>\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/4c36cdfa54b26cb4291c359dc2cd7910d868f8ae-125x181.png\" alt=\"Gluten-free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/2390692fa16a1bad9ae4453609bcd8b61afbb0b2-149x180.png\" alt=\"Vegetarian\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/cc4066d915d42e195ee9cf5bbce01a99f006af1e-126x181.png\" alt=\"Lactose-free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/f7e562d6bb212503da89f944a0d799171e6d48fe-125x181.png\" alt=\"Allergen-free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/e2132e2f64f15727e375c7aa509fedd7bdcf1ae8-126x182.png\" alt=\"Hormone-free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/28d7e07bb105f5cdb78b23808a653158de4f4b70-125x182.png\" alt=\"All natural\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/a007d72855c1d7a309b8b6dec5eadf939bb8a80d-125x181.png\" alt=\"Corn-free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/392fe7a0ceded284f4aeb9c2eeb40c638917d6be-149x180.png\" alt=\"Vegan friendly\" style=\"height: 6rem; width: auto;\"></p>",
+  "published_at": "2026-08-26T07:47:29-06:00",
+  "created_at": "2026-08-26T07:47:29-06:00",
+  "updated_at": "2026-10-21T03:24:51-06:00",
+  "vendor": "The Healthy Pepper",
+  "product_type": "Post-Workout Recovery",
+  "tags": [],
+  "variants": [
+    {
+      "id": 45900577767603,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "VOX4COQ1",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "26.95",
+      "grams": 45,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 8626216272051,
+      "created_at": "2026-08-26T07:47:31-06:00",
+      "updated_at": "2026-10-21T03:24:51-06:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 41791547441331,
+      "created_at": "2026-08-26T07:53:58-06:00",
+      "position": 1,
+      "updated_at": "2026-08-26T07:54:00-06:00",
+      "product_id": 8626216272051,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1787752381351-generated-label-image-0.jpg?v=1787752440",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 41791547474099,
+      "created_at": "2026-08-26T07:53:58-06:00",
+      "position": 2,
+      "updated_at": "2026-08-26T07:54:00-06:00",
+      "product_id": 8626216272051,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1787752381352-generated-label-image-1.jpg?v=1787752440",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 41791547506867,
+      "created_at": "2026-08-26T07:53:58-06:00",
+      "position": 3,
+      "updated_at": "2026-08-26T07:54:00-06:00",
+      "product_id": 8626216272051,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1787752381338-generated-label-image-2.jpg?v=1787752440",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 41791547539635,
+      "created_at": "2026-08-26T07:53:58-06:00",
+      "position": 4,
+      "updated_at": "2026-08-26T07:54:00-06:00",
+      "product_id": 8626216272051,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1787752381352-generated-label-image-3.jpg?v=1787752440",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 41791547572403,
+      "created_at": "2026-08-26T07:53:58-06:00",
+      "position": 5,
+      "updated_at": "2026-08-26T07:54:00-06:00",
+      "product_id": 8626216272051,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1787752381350-generated-label-image-4.jpg?v=1787752440",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 41791547605171,
+      "created_at": "2026-08-26T07:53:58-06:00",
+      "position": 6,
+      "updated_at": "2026-08-26T07:54:00-06:00",
+      "product_id": 8626216272051,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/20250618121049-vox4coq1-sf.png?v=1787752440",
+      "width": 515,
+      "height": 415
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

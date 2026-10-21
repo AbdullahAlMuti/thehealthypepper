@@ -1,0 +1,110 @@
+{
+  "id": 8711886569651,
+  "title": "Pepper Bliss",
+  "handle": "pepper-bliss",
+  "body_html": "<p>5-HTP occurs naturally in the body. Typically, people produce enough for regular functioning, but some require supplementation. 5-HTP dietary supplements aid in supporting normal serotonin levels in the brain and emotional well-being.</p><p><br></p><p>Since 5-HTP is naturally present in the body, supplementing with it is a clean, holistic way to support normal serotonin levels.*</p><p><br></p><p><strong>Ingredients: </strong>Calcium (as Calcium Carbonate), 5-Hydroxytryptophan (from Griffo via simplicifolia seed extract), Gelatin (capsule), Magnesium Stearate.</p><p><strong>Manufacturer Country</strong>: USA</p><p><strong>Product Amount</strong>: 60 caps</p><p><strong>Gross Weight: </strong>2.6 oz / 0.16 lb / 73 g</p><p><strong>Suggested Use:</strong> Take two (2) capsules once a day as a dietary supplement. For best results, take 20-30 min before a meal with an 8oz (236 ml) glass of water or as directed by your healthcare professional.</p><p><strong>Caution: </strong>Do not exceed recommended dose. Pregnant or nursing mothers, children under the age of 18, and individuals with a known medical condition should consult a physician before using this or any dietary supplement.</p><p><strong>Warning:</strong> Keep out of reach of children. Do not use if the safety seal is damaged or missing. Store in a cool, dry place.</p><p><br></p><p><strong>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</strong></p> <p>\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/4c36cdfa54b26cb4291c359dc2cd7910d868f8ae-125x181.png\" alt=\"Gluten-free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/cc4066d915d42e195ee9cf5bbce01a99f006af1e-126x181.png\" alt=\"Lactose-free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/f7e562d6bb212503da89f944a0d799171e6d48fe-125x181.png\" alt=\"Allergen-free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/e2132e2f64f15727e375c7aa509fedd7bdcf1ae8-126x182.png\" alt=\"Hormone-free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/28d7e07bb105f5cdb78b23808a653158de4f4b70-125x182.png\" alt=\"All natural\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/f99540cc3d3f192a68004f4518d57b0cd7c27aa7-125x181.png\" alt=\"Antibiotic-free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/a007d72855c1d7a309b8b6dec5eadf939bb8a80d-125x181.png\" alt=\"Corn-free\" style=\"height: 6rem; width: auto;\"></p>",
+  "published_at": "2026-09-26T14:55:33-06:00",
+  "created_at": "2026-09-26T14:55:33-06:00",
+  "updated_at": "2026-10-21T03:24:51-06:00",
+  "vendor": "The Healthy Pepper",
+  "product_type": "Specialty Supplements",
+  "tags": [],
+  "variants": [
+    {
+      "id": 46100411515059,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "VOX325HTP",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "19.95",
+      "grams": 73,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 8711886569651,
+      "created_at": "2026-09-26T14:55:35-06:00",
+      "updated_at": "2026-10-21T03:24:51-06:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 42227832193203,
+      "created_at": "2026-09-26T14:55:34-06:00",
+      "position": 1,
+      "updated_at": "2026-09-26T14:55:36-06:00",
+      "product_id": 8711886569651,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1790455870656-generated-label-image-0.jpg?v=1790456136",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42227832225971,
+      "created_at": "2026-09-26T14:55:34-06:00",
+      "position": 2,
+      "updated_at": "2026-09-26T14:55:36-06:00",
+      "product_id": 8711886569651,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1790455870668-generated-label-image-1.jpg?v=1790456136",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42227832258739,
+      "created_at": "2026-09-26T14:55:34-06:00",
+      "position": 3,
+      "updated_at": "2026-09-26T14:55:36-06:00",
+      "product_id": 8711886569651,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1790455870668-generated-label-image-2.jpg?v=1790456136",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42227832291507,
+      "created_at": "2026-09-26T14:55:34-06:00",
+      "position": 4,
+      "updated_at": "2026-09-26T14:55:36-06:00",
+      "product_id": 8711886569651,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1790455870656-generated-label-image-3.jpg?v=1790456136",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42227832324275,
+      "created_at": "2026-09-26T14:55:34-06:00",
+      "position": 5,
+      "updated_at": "2026-09-26T14:55:36-06:00",
+      "product_id": 8711886569651,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1790455870656-generated-label-image-4.jpg?v=1790456136",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42227832357043,
+      "created_at": "2026-09-26T14:55:34-06:00",
+      "position": 6,
+      "updated_at": "2026-09-26T14:55:35-06:00",
+      "product_id": 8711886569651,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/d806add7578645164ef98926b548129c56a3d11b-480x338.png?v=1790456135",
+      "width": 480,
+      "height": 338
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

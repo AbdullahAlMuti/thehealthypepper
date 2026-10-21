@@ -1,0 +1,110 @@
+{
+  "id": 8599545381043,
+  "title": "Pure3 100% Whey Protein Isolate (Chocolate)",
+  "handle": "pure3-100-whey-protein-isolate-chocolate",
+  "body_html": "<p>Our Chocolate Whey Protein Isolate is meticulously crafted to support muscle growth and recovery, providing an optimal blend of nutrients for athletes and fitness enthusiasts alike. This premium protein supplement is made with pure whey protein isolate, the purest form of whey available, ensuring maximum protein content with minimal fat and lactose.*</p><p><br></p><p><strong>Flavor and Sweetness:</strong></p><p>We enhance this protein isolate with natural flavors, carefully selected to offer a rich and authentic chocolate taste that's both comforting and invigorating. To complement the smooth chocolate flavor, we use stevia extract—a natural sweetener derived from the leaves of the Stevia plant. This choice not only avoids the use of artificial sweeteners but also reduces the calorie count, making it a perfect choice for those monitoring their caloric intake.*</p><p><br></p><p><strong>Product Formulation:</strong></p><p>The formulation is designed for easy mixing and a non-gritty, smooth texture when blended with water or your favorite beverage. It's perfect for a quick shake after a workout, a nutritious addition to smoothies, or even as a component in high-protein baked goods and snacks. Each serving delivers a high dose of quality protein essential for muscle repair and growth, making it an indispensable tool in your nutrition regimen.*</p><p><br></p><p><strong>Health Benefits:</strong></p><p>Regular intake of our Chocolate Whey Protein Isolate can help:</p><p>• Accelerate muscle recovery post-exercise*</p><p>• Aid in the maintenance and growth of muscle mass*</p><p>• Support metabolic rate as part of a balanced diet*</p><p>• Enhance satiety and help manage weight by curbing hunger pangs*</p><p><br></p><p><strong>Ingredients: </strong>Whey Protein Isolate (18g), Natural Flavors, Stevia Extract (leaf).</p><p><strong>Flavor: </strong>Chocolate</p><p><strong>Manufacturer's country:</strong> USA</p><p><strong>Product amount: </strong>24.7oz/700g</p><p><strong>Gross weight: </strong>2.04lb/925g</p><p><strong>Suggested use:</strong> As a dietary supplement, adults mix one (1) scoop with 6-8 oz (177-236 ml) of water or favorite beverage daily. For best results, take 20-30 minutes before a meal with 8 oz. of water or as directed by your healthcare professional.</p><p><strong>Warning: </strong>Do not exceed recommended dose. Pregnant or nursing mothers, children under the age of 18, and individuals with a known medical condition should consult a physician before using this or any dietary supplement. KEEP OUT OF THE REACH OF CHILDREN. DO NOT USE IF SAFETY SEAL IS DAMAGED OR MISSING. STORE IN A COOL, DRY PLACE.</p><p><br></p><p><strong>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.</strong></p> <p>\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/4c36cdfa54b26cb4291c359dc2cd7910d868f8ae-125x181.png\" alt=\"Gluten-free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/2390692fa16a1bad9ae4453609bcd8b61afbb0b2-149x180.png\" alt=\"Vegetarian\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/0e9fc04e2f9353234d2b7794b96613f19c576efb-126x183.png\" alt=\"Non-GMO\" style=\"height: 6rem; width: auto;\"></p>",
+  "published_at": "2026-08-10T18:34:58-06:00",
+  "created_at": "2026-08-10T18:34:58-06:00",
+  "updated_at": "2026-10-21T03:24:51-06:00",
+  "vendor": "The Healthy Pepper",
+  "product_type": "Proteins",
+  "tags": [],
+  "variants": [
+    {
+      "id": 45813708947635,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "JTP0WHCH",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "49.95",
+      "grams": 924,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 8599545381043,
+      "created_at": "2026-08-10T18:35:00-06:00",
+      "updated_at": "2026-10-21T03:24:51-06:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 42091099324595,
+      "created_at": "2026-09-13T23:02:00-06:00",
+      "position": 1,
+      "updated_at": "2026-09-13T23:02:02-06:00",
+      "product_id": 8599545381043,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789362100865-generated-label-image-0.jpg?v=1789362122",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42091099357363,
+      "created_at": "2026-09-13T23:02:00-06:00",
+      "position": 2,
+      "updated_at": "2026-09-13T23:02:02-06:00",
+      "product_id": 8599545381043,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789362100852-generated-label-image-1.jpg?v=1789362122",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42091099390131,
+      "created_at": "2026-09-13T23:02:00-06:00",
+      "position": 3,
+      "updated_at": "2026-09-13T23:02:02-06:00",
+      "product_id": 8599545381043,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789362100853-generated-label-image-2.jpg?v=1789362122",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42091099422899,
+      "created_at": "2026-09-13T23:02:00-06:00",
+      "position": 4,
+      "updated_at": "2026-09-13T23:02:02-06:00",
+      "product_id": 8599545381043,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789362100852-generated-label-image-3.jpg?v=1789362122",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42091099455667,
+      "created_at": "2026-09-13T23:02:00-06:00",
+      "position": 5,
+      "updated_at": "2026-09-13T23:02:02-06:00",
+      "product_id": 8599545381043,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789362100865-generated-label-image-4.jpg?v=1789362122",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42091099488435,
+      "created_at": "2026-09-13T23:02:00-06:00",
+      "position": 6,
+      "updated_at": "2026-09-13T23:02:02-06:00",
+      "product_id": 8599545381043,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/20241127105853-jtp0whch-sf.png?v=1789362122",
+      "width": 2048,
+      "height": 3036
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

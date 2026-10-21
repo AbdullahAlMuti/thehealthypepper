@@ -1,0 +1,88 @@
+{
+  "id": 8702114726067,
+  "title": "Peptide Eye Gel-Cream",
+  "handle": "peptide-eye-gel-cream",
+  "body_html": "<p>Revitalize your delicate eye area with our Peptide Eye Gel-Cream, precisely formulated to target the appearance of puffiness and provide deep hydration. Infused with acetyl tetrapeptide-5 and sodium hyaluronate, this specialized formula leaves the eye area looking refreshed and vibrant.</p><p><br></p><p>Our Peptide Eye Gel-Cream effectively reduces apearance of puffiness and plumps fine lines, thanks to the combination of acetyl tetrapeptide-5 and sodium hyaluronate. Enriched with grape seed oil and bamboo extract, it offers antioxidant protection, promoting overall skin health around the eyes. Its lightweight, non-greasy texture is suitable for all skin types, including sensitive skin.</p><p><br></p><p>Incorporate our Peptide Eye Gel-Cream into your daily routine for youthful, radiant-looking eyes. Ideal for use under makeup, it ensures a smooth finish without settling into fine lines. Pair it with other products from our skincare line for a comprehensive approach to achieving beautiful, revitalized eyes.</p><p><br></p><p><strong>Ingredients:</strong> Aqua, Vitis Vinifera (Grape) Seed Oil, Cetearyl Alcohol, Cetearyl Glucoside, Acacia Senegal Gum, Xanthan Gum, Acetyl Tetrapeptide-5, Sodium Hyaluronate, 1,2-Hexanediol, Phyllostachys Bambusoides Extract</p><p><strong>Manufacturer's country: </strong>USA</p><p><strong>Product amount: </strong>1 fl oz / 30ml</p><p><strong>Gross weight (oz/lbs/g):</strong> 1.76 oz / 0.11 lbs / 50 g</p><p><strong>Suggested use:</strong> Once or twice daily, apply a dime-sized amount to the under-eye area and along the orbital bone.</p><p><strong>Warning:</strong> This product is for external use only and is not intended to be ingested. Avoid contact with eyes. In case of irritation, discontinue use. Keep out of reach of children. Store in a cool, dry place.</p> <p>\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/fcded08d85e2c6a9aa898fa2748178b41414fe13-126x182.png\" alt=\"Cruelty Free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/244d0a330898889ce06c8fc54a209cc5c9fb2c4e-126x174.png\" alt=\"Fragrance Free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/2443e8fca0bdfed1a051e72bc72932c895c103db-126x159.png\" alt=\"Mineral Oil Free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/4c86bd5451296b5b66cbe2ae2bf798faa5a8a840-126x182.png\" alt=\"Paraben Free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/210b392de575e1edcd45c334ae67a7c8ddc39bbf-126x176.png\" alt=\"Phthalate Free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/aad66d2557266d504c992eb3858be0819b69eb4a-126x182.png\" alt=\"Silicone Free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/d36451717d0a85dcb8435fbd27ff8fc470a29843-126x182.png\" alt=\"Sulfate Free\" style=\"height: 6rem; width: auto;\"></p>",
+  "published_at": "2026-09-20T09:54:53-06:00",
+  "created_at": "2026-09-20T09:54:53-06:00",
+  "updated_at": "2026-10-21T03:24:51-06:00",
+  "vendor": "The Healthy Pepper",
+  "product_type": "Facial Care",
+  "tags": [],
+  "variants": [
+    {
+      "id": 46066739740851,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "EVL0PPEC",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "30.95",
+      "grams": 50,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 8702114726067,
+      "created_at": "2026-09-20T09:54:55-06:00",
+      "updated_at": "2026-10-21T03:24:51-06:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 42207312609459,
+      "created_at": "2026-09-24T19:30:32-06:00",
+      "position": 1,
+      "updated_at": "2026-09-24T19:30:33-06:00",
+      "product_id": 8702114726067,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789932800682-generated-label-image-0.jpg?v=1790299833",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42207312642227,
+      "created_at": "2026-09-24T19:30:32-06:00",
+      "position": 2,
+      "updated_at": "2026-09-24T19:30:33-06:00",
+      "product_id": 8702114726067,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789932800683-generated-label-image-1.jpg?v=1790299833",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42207312674995,
+      "created_at": "2026-09-24T19:30:32-06:00",
+      "position": 3,
+      "updated_at": "2026-09-24T19:30:33-06:00",
+      "product_id": 8702114726067,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789932800671-generated-label-image-2.jpg?v=1790299833",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42207312707763,
+      "created_at": "2026-09-24T19:30:32-06:00",
+      "position": 4,
+      "updated_at": "2026-09-24T19:30:33-06:00",
+      "product_id": 8702114726067,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789932800683-generated-label-image-3.jpg?v=1790299833",
+      "width": 2048,
+      "height": 2048
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": 8599546495155,
+  "title": "Vitamin D3 2,000 IU",
+  "handle": "vitamin-d3-2-000-iu",
+  "body_html": "<p>Vitamin D3 is a fat-soluble vitamin that supports the growth and development of bones and teeth. It also plays an essential role in the functioning of the muscles and boosting energy levels in the body.</p><p><br></p><p>The body naturally produces Vitamin D when exposed to sunlight, and you can also receive Vitamin D from some foods like oily fish. In the winter months, especially in colder regions, the body doesn’t produce as much Vitamin D, leading to ‘seasonal depression.’*</p><p><br></p><p><strong>Ingredients: </strong>Vitamin D3 (as cholecalciferol), Softgel (gelatin, glycerin, water), soybean oil, corn oil.</p><p><strong>Manufacturer Country:</strong> USA</p><p><strong>Product Amount: </strong>100 softgels</p><p><strong>Gross Weight: </strong>1.6 oz / 0.1 lb / 45g</p><p><strong>Suggested Use: </strong>As a dietary supplement, adults take one (1) softgel capsule daily or as directed by a health care professional.</p><p><strong>Warning:</strong> Keep out of reach of children. Do not use if the safety seal is damaged or missing. Store in a cool, dry place and away from direct light.</p><p><br></p><p><strong>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</strong></p> <p>\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/4c36cdfa54b26cb4291c359dc2cd7910d868f8ae-125x181.png\" alt=\"Gluten-free\" style=\"height: 6rem; width: auto;\"></p>",
+  "published_at": "2026-08-10T18:37:07-06:00",
+  "created_at": "2026-08-10T18:37:07-06:00",
+  "updated_at": "2026-10-21T03:24:51-06:00",
+  "vendor": "The Healthy Pepper",
+  "product_type": "Vitamins & Minerals",
+  "tags": [],
+  "variants": [
+    {
+      "id": 45813710454963,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "RLC3VTD3",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "19.95",
+      "grams": 45,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 8599546495155,
+      "created_at": "2026-08-10T18:37:08-06:00",
+      "updated_at": "2026-10-21T03:24:51-06:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 42177390313651,
+      "created_at": "2026-09-19T17:41:00-06:00",
+      "position": 1,
+      "updated_at": "2026-09-19T17:41:01-06:00",
+      "product_id": 8599546495155,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789858361986-generated-label-image-0.jpg?v=1789861261",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177390346419,
+      "created_at": "2026-09-19T17:41:00-06:00",
+      "position": 2,
+      "updated_at": "2026-09-19T17:41:02-06:00",
+      "product_id": 8599546495155,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789858361974-generated-label-image-1.jpg?v=1789861262",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177390379187,
+      "created_at": "2026-09-19T17:41:00-06:00",
+      "position": 3,
+      "updated_at": "2026-09-19T17:41:01-06:00",
+      "product_id": 8599546495155,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789858361985-generated-label-image-2.jpg?v=1789861261",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177390411955,
+      "created_at": "2026-09-19T17:41:00-06:00",
+      "position": 4,
+      "updated_at": "2026-09-19T17:41:01-06:00",
+      "product_id": 8599546495155,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789858361985-generated-label-image-3.jpg?v=1789861261",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177390444723,
+      "created_at": "2026-09-19T17:41:00-06:00",
+      "position": 5,
+      "updated_at": "2026-09-19T17:41:01-06:00",
+      "product_id": 8599546495155,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/20250707182447-rlc3vtd3-sf.png?v=1789861261",
+      "width": 509,
+      "height": 309
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "id": 8632702795955,
+  "title": "Hyaluronic Acid Serum",
+  "handle": "hyaluronic-acid-serum",
+  "body_html": "<p>A revolutionary skincare product that harnesses the extraordinary properties of four different types of hyaluronic acid to provide unmatched hydration and skin rejuvenation. Hyaluronic Acid Serum is designed to target and transform your skin, enhancing moisture retention and elasticity like never before.</p><p>Unlike other hyaluronic acid serums in the market, this product is packed with multiple types of hyaluronic acid, each targeting a different layer of the skin - as a result, skin feels hydrated and moisturized from the inside out!</p><p><br></p><p><strong>Ingredients:</strong> Water, Propanediol, Glycerin, Sodium Hyaluronate Crosspolymer, Sodium Hyaluronate, Sodium Acetylated Hyaluronate, Hydrolyzed Sodium Hyaluronate, Pentylene Glycol, Xantham Gum, Sorbitan Oleate Decylglucoside Crosspolymer, Phenoxyethanol, Ethyhexylglycerin.</p><p><strong>Manufacturer Country:</strong> USA</p><p><strong>Product amount: </strong>1 fl oz / 0.07 lb / 30ml</p><p><strong>Gross weight: </strong>1.4 oz / 0.09 lb / 40 g</p><p><strong>Suggested Use:</strong> Apply a small amount of the product to clean, dry skin. Gently massage until fully absorbed.</p><p><strong>Caution:</strong> Avoid contact with eyes. In case of irritation, discontinue use. Keep out of reach of children. Store in a cool, dry place.</p> <p>\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/4c36cdfa54b26cb4291c359dc2cd7910d868f8ae-125x181.png\" alt=\"Gluten-free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/cc4066d915d42e195ee9cf5bbce01a99f006af1e-126x181.png\" alt=\"Lactose-free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/e2132e2f64f15727e375c7aa509fedd7bdcf1ae8-126x182.png\" alt=\"Hormone-free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/cdfc952372e17b0816769aa917a3edb008f07af3-126x182.png\" alt=\"Alcohol Free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/fcded08d85e2c6a9aa898fa2748178b41414fe13-126x182.png\" alt=\"Cruelty Free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/244d0a330898889ce06c8fc54a209cc5c9fb2c4e-126x174.png\" alt=\"Fragrance Free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/2443e8fca0bdfed1a051e72bc72932c895c103db-126x159.png\" alt=\"Mineral Oil Free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/4c86bd5451296b5b66cbe2ae2bf798faa5a8a840-126x182.png\" alt=\"Paraben Free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/210b392de575e1edcd45c334ae67a7c8ddc39bbf-126x176.png\" alt=\"Phthalate Free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/aad66d2557266d504c992eb3858be0819b69eb4a-126x182.png\" alt=\"Silicone Free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/d36451717d0a85dcb8435fbd27ff8fc470a29843-126x182.png\" alt=\"Sulfate Free\" style=\"height: 6rem; width: auto;\"></p>",
+  "published_at": "2026-08-29T19:23:19-06:00",
+  "created_at": "2026-08-29T19:23:19-06:00",
+  "updated_at": "2026-10-21T03:24:51-06:00",
+  "vendor": "The Healthy Pepper",
+  "product_type": "Facial Care",
+  "tags": [],
+  "variants": [
+    {
+      "id": 45916684386483,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "FMN0HYAL",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "22.95",
+      "grams": 82,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 8632702795955,
+      "created_at": "2026-08-29T19:23:21-06:00",
+      "updated_at": "2026-10-21T03:24:51-06:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 42177390870707,
+      "created_at": "2026-09-19T17:41:00-06:00",
+      "position": 1,
+      "updated_at": "2026-09-19T17:41:02-06:00",
+      "product_id": 8632702795955,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789855462016-generated-label-image-0.jpg?v=1789861262",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177390903475,
+      "created_at": "2026-09-19T17:41:00-06:00",
+      "position": 2,
+      "updated_at": "2026-09-19T17:41:02-06:00",
+      "product_id": 8632702795955,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789855462024-generated-label-image-1.jpg?v=1789861262",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177390936243,
+      "created_at": "2026-09-19T17:41:00-06:00",
+      "position": 3,
+      "updated_at": "2026-09-19T17:41:02-06:00",
+      "product_id": 8632702795955,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789855462026-generated-label-image-2.jpg?v=1789861262",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177390969011,
+      "created_at": "2026-09-19T17:41:00-06:00",
+      "position": 4,
+      "updated_at": "2026-09-19T17:41:02-06:00",
+      "product_id": 8632702795955,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789855462024-generated-label-image-3.jpg?v=1789861262",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177391001779,
+      "created_at": "2026-09-19T17:41:00-06:00",
+      "position": 5,
+      "updated_at": "2026-09-19T17:41:02-06:00",
+      "product_id": 8632702795955,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789855462029-generated-label-image-4.jpg?v=1789861262",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177391034547,
+      "created_at": "2026-09-19T17:41:00-06:00",
+      "position": 6,
+      "updated_at": "2026-09-19T17:41:02-06:00",
+      "product_id": 8632702795955,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789855462021-generated-label-image-5.jpg?v=1789861262",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177391067315,
+      "created_at": "2026-09-19T17:41:00-06:00",
+      "position": 7,
+      "updated_at": "2026-09-19T17:41:02-06:00",
+      "product_id": 8632702795955,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789855462027-generated-label-image-6.jpg?v=1789861262",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177391100083,
+      "created_at": "2026-09-19T17:41:00-06:00",
+      "position": 8,
+      "updated_at": "2026-09-19T17:41:02-06:00",
+      "product_id": 8632702795955,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789855462023-generated-label-image-7.jpg?v=1789861262",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177391132851,
+      "created_at": "2026-09-19T17:41:00-06:00",
+      "position": 9,
+      "updated_at": "2026-09-19T17:41:02-06:00",
+      "product_id": 8632702795955,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789855462027-generated-label-image-8.jpg?v=1789861262",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177391165619,
+      "created_at": "2026-09-19T17:41:00-06:00",
+      "position": 10,
+      "updated_at": "2026-09-19T17:41:02-06:00",
+      "product_id": 8632702795955,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789855462024-generated-label-image-9.jpg?v=1789861262",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177391198387,
+      "created_at": "2026-09-19T17:41:00-06:00",
+      "position": 11,
+      "updated_at": "2026-09-19T17:41:02-06:00",
+      "product_id": 8632702795955,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789855462012-generated-label-image-10.jpg?v=1789861262",
+      "width": 2048,
+      "height": 2048
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

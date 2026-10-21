@@ -1,0 +1,110 @@
+{
+  "id": 8599546658995,
+  "title": "Plant Protein (Chocolate)",
+  "handle": "plant-protein-chocolate",
+  "body_html": "<p>Enhance your nutrition with our Plant Protein (Chocolate), a delicious and versatile protein powder designed to support your active lifestyle. Each serving provides a complete amino acid profile essential for muscle repair and growth, making it an ideal post-workout recovery shake. Made from high-quality plant-based ingredients, our formula is free from dairy, soy, and gluten, ensuring it's suitable for those with dietary restrictions.*</p><p><br></p><p><strong>Health Benefits:</strong></p><p>• High-Quality Plant Protein: Each serving delivers 21g of a powerful blend of Fava Bean Protein Isolate and YESTEINTM Fermented Nutritional Yeast Protein to support muscle recovery and growth.*</p><p>• Low-Calorie and Nutrient-Dense: Each serving contains just 110 kcal and provides all essential amino acids necessary for muscle repair and growth, along with apple pectin powder for added digestive support.*</p><p>• Rich Chocolate Flavor with Healthy Fats: Enjoy the indulgent taste of Nidau Cocoa Powder and Nightfall Black Cocoa Powder, enhanced with MCT oil powder for quick energy and metabolism.*</p><p>• Weight Management: The combination of protein and fiber helps increase feelings of fullness, aiding in weight management.*</p><p>• Digestive Health: Free from soy, and gluten, making it suitable for those with dietary restrictions, and includes sunflower lecithin for enhanced mixability and brain health.*</p><p><br></p><p><strong>Ingredients:</strong> Fava Bean Protein Isolate, YESTEINTM Fermented Nutritional Yeast Protein, Nidau Cocoa Powder, Natural Flavor, MCT Oil Powder, Nightfall Black Cocoa Powder, Apple Pectin Powder, Sea Salt, Sunflower Lecithin, Stevia Extract (leaf).</p><p><strong>Flavor: </strong>Chocolate</p><p><strong>Manufacturer's country:</strong> USA</p><p><strong>Product amount (oz/lbs/g): </strong>29.4oz / 1.8lbs / 833g</p><p><strong>Gross weight (oz/lbs/g):</strong> 32oz / 2lbs / 910g</p><p><strong>Suggested use: </strong>As a dietary supplement, adults mix two (2) scoops with 6-8 oz. of water or favorite beverage daily. For best results, take 20-30 minutes before a meal with 8 oz. of water or as directed by your healthcare professional.</p><p><strong>Caution:</strong> Do not exceed recommended dose. Pregnant or nursing mothers, children under the age of 18, and individuals with a known medical condition should consult a physician before using this or any dietary supplement. KEEP OUT OF THE REACH OF CHILDREN. DO NOT USE IF SAFETY SEAL IS DAMAGED OR MISSING. STORE IN A COOL, DRY PLACE.</p><p><br></p><p><strong>WARNING: </strong>Accidental overdose of iron-containing products is a leading cause of fatal poisoning in children under 6. Keep this product out of reach of children. In case of accidental overdose, call a doctor or poison control center immediately.</p><p><br></p><p><br></p><p><strong>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.</strong></p> <p>\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/4c36cdfa54b26cb4291c359dc2cd7910d868f8ae-125x181.png\" alt=\"Gluten-free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/2390692fa16a1bad9ae4453609bcd8b61afbb0b2-149x180.png\" alt=\"Vegetarian\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/cc4066d915d42e195ee9cf5bbce01a99f006af1e-126x181.png\" alt=\"Lactose-free\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/0e9fc04e2f9353234d2b7794b96613f19c576efb-126x183.png\" alt=\"Non-GMO\" style=\"height: 6rem; width: auto;\">\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/392fe7a0ceded284f4aeb9c2eeb40c638917d6be-149x180.png\" alt=\"Vegan friendly\" style=\"height: 6rem; width: auto;\"></p>",
+  "published_at": "2026-08-10T18:37:19-06:00",
+  "created_at": "2026-08-10T18:37:19-06:00",
+  "updated_at": "2026-10-21T03:24:51-06:00",
+  "vendor": "The Healthy Pepper",
+  "product_type": "Proteins",
+  "tags": [],
+  "variants": [
+    {
+      "id": 45813710651571,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "JTP7PPCH",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "44.95",
+      "grams": 907,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 8599546658995,
+      "created_at": "2026-08-10T18:37:19-06:00",
+      "updated_at": "2026-10-21T03:24:51-06:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 42177394081971,
+      "created_at": "2026-09-19T17:41:05-06:00",
+      "position": 1,
+      "updated_at": "2026-09-19T17:41:06-06:00",
+      "product_id": 8599546658995,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789858452377-generated-label-image-0.jpg?v=1789861266",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177394114739,
+      "created_at": "2026-09-19T17:41:05-06:00",
+      "position": 2,
+      "updated_at": "2026-09-19T17:41:06-06:00",
+      "product_id": 8599546658995,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789858452350-generated-label-image-1.jpg?v=1789861266",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177394147507,
+      "created_at": "2026-09-19T17:41:05-06:00",
+      "position": 3,
+      "updated_at": "2026-09-19T17:41:06-06:00",
+      "product_id": 8599546658995,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789858452351-generated-label-image-2.jpg?v=1789861266",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177394180275,
+      "created_at": "2026-09-19T17:41:05-06:00",
+      "position": 4,
+      "updated_at": "2026-09-19T17:41:06-06:00",
+      "product_id": 8599546658995,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789858452338-generated-label-image-3.jpg?v=1789861266",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177394213043,
+      "created_at": "2026-09-19T17:41:05-06:00",
+      "position": 5,
+      "updated_at": "2026-09-19T17:41:06-06:00",
+      "product_id": 8599546658995,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789858452350-generated-label-image-4.jpg?v=1789861266",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177394245811,
+      "created_at": "2026-09-19T17:41:05-06:00",
+      "position": 6,
+      "updated_at": "2026-09-19T17:41:06-06:00",
+      "product_id": 8599546658995,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/20250627152945-jtp7ppch-sf.png?v=1789861266",
+      "width": 826,
+      "height": 1236
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}

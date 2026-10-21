@@ -1,0 +1,110 @@
+{
+  "id": 8625749754035,
+  "title": "Hair, Skin & Nails Gummies",
+  "handle": "hair-skin-nails-gummies",
+  "body_html": "<p>Discover the secret to vibrant beauty with Hair, Skin &amp; Nails Gummies. Formulated with a unique combination of essential vitamins and minerals, these gummies support your hair, skin, and nails from the inside out. Each delicious gummy contains Biotin, Vitamins A, C, D, and E, creating a nourishing blend that promotes your natural glow and beauty.</p><p><br></p><p>The inclusion of Collagen adds an extra layer of support, helping to maintain the structure and appearance of your hair and nails. Vitamin C plays a role in collagen production, contributing to skin elasticity and a smooth, youthful look. Meanwhile, Zinc and Iodine help support a clear, even complexion, enhancing your skin’s natural radiance.</p><p><br></p><p>Incorporate Hair, Skin &amp; Nails Gummies into your daily routine for a tasty boost that complements your self-care rituals. Each gummy is crafted with care, using high-quality ingredients to ensure you’re getting the nutrients you need to feel confident and beautiful. Embrace your natural beauty and enjoy the benefits of this thoughtfully formulated supplement.*</p><p><br></p><p><strong>Ingredients:</strong> Vitamin A (as retinyl acetate), Vitamin C (as ascorbic acid), Vitamin D (as cholecalciferol), Vitamin E (as dl-Alpha tocopheryl acetate), Vitamin B-6 (as pyridoxine HCI), Folate, Vitamin B-12 (as cyanocobalamin), Biotin, Pantothenic Acid (as calcium d-pantothenate), Iodine (as potassium iodide), Zinc (as zinc citrate), PABA (para-Aminobenzoic Acid), Collagen (piscine), Silicon, Glucose syrup, Sugar, Glucose, Pectin, Citric acid, Sodium citrate, Passion fruit flavor, Vegetable oil (contains carnauba wax), Purple carrot juice concentrate.</p><p><strong>Manufacturer's country: </strong>USA</p><p><strong>Product amount:</strong> 60 gummies / 5.29 oz / 0.33 lb/ 150 g</p><p><strong>Gross weight (oz/lbs/g):</strong> 6.56 oz / 0.41 lbs / 186 g</p><p><strong>Suggested use: </strong>Take 2 gummies daily or as directed by a healthcare professional.</p><p><strong>Warning:</strong> Take only as directed. Do not exceed the suggested dosage. Pregnant or nursing mothers, children under 18, or individuals with a known medical condition should consult a physician before using this or any dietary supplement. This product may settle during shipping. Natural colors may darken over time, but this does not affect potency.</p><p>This product is manufactured and packaged in a facility that may also process milk, soy, wheat, eggs, peanuts, tree nuts, fish, and crustacean shellfish.</p><p>KEEP OUT OF REACH OF CHILDREN. DO NOT USE IF SAFETY SEAL IS DAMAGED OR MISSING. STORE IN A COOL, DRY PLACE.</p><p><br></p><p><strong>*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</strong></p> <p>\n            <img src=\"https://cdn.sanity.io/images/g0smbdlu/production/4c36cdfa54b26cb4291c359dc2cd7910d868f8ae-125x181.png\" alt=\"Gluten-free\" style=\"height: 6rem; width: auto;\"></p>",
+  "published_at": "2026-08-25T20:33:31-06:00",
+  "created_at": "2026-08-25T20:33:31-06:00",
+  "updated_at": "2026-10-21T03:24:51-06:00",
+  "vendor": "The Healthy Pepper",
+  "product_type": "Skin, Hair & Nail Health",
+  "tags": [],
+  "variants": [
+    {
+      "id": 45898580361395,
+      "title": "Default Title",
+      "option1": "Default Title",
+      "option2": null,
+      "option3": null,
+      "sku": "VTL4HASK",
+      "requires_shipping": true,
+      "taxable": true,
+      "featured_image": null,
+      "available": true,
+      "price": "26.95",
+      "grams": 186,
+      "compare_at_price": null,
+      "position": 1,
+      "product_id": 8625749754035,
+      "created_at": "2026-08-25T20:33:32-06:00",
+      "updated_at": "2026-10-21T03:24:51-06:00"
+    }
+  ],
+  "images": [
+    {
+      "id": 42177396211891,
+      "created_at": "2026-09-19T17:41:07-06:00",
+      "position": 1,
+      "updated_at": "2026-09-19T17:41:09-06:00",
+      "product_id": 8625749754035,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789857651953-generated-label-image-0.jpg?v=1789861269",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177396244659,
+      "created_at": "2026-09-19T17:41:07-06:00",
+      "position": 2,
+      "updated_at": "2026-09-19T17:41:09-06:00",
+      "product_id": 8625749754035,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789857651954-generated-label-image-1.jpg?v=1789861269",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177396277427,
+      "created_at": "2026-09-19T17:41:07-06:00",
+      "position": 3,
+      "updated_at": "2026-09-19T17:41:09-06:00",
+      "product_id": 8625749754035,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789857651941-generated-label-image-2.jpg?v=1789861269",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177396310195,
+      "created_at": "2026-09-19T17:41:07-06:00",
+      "position": 4,
+      "updated_at": "2026-09-19T17:41:09-06:00",
+      "product_id": 8625749754035,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789857651953-generated-label-image-3.jpg?v=1789861269",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177396342963,
+      "created_at": "2026-09-19T17:41:07-06:00",
+      "position": 5,
+      "updated_at": "2026-09-19T17:41:09-06:00",
+      "product_id": 8625749754035,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/1789857651952-generated-label-image-4.jpg?v=1789861269",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "id": 42177396375731,
+      "created_at": "2026-09-19T17:41:07-06:00",
+      "position": 6,
+      "updated_at": "2026-09-19T17:41:09-06:00",
+      "product_id": 8625749754035,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0762/0408/1331/files/20250303134732-vtl4hask-sf.png?v=1789861269",
+      "width": 1009,
+      "height": 1368
+    }
+  ],
+  "options": [
+    {
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ]
+}
