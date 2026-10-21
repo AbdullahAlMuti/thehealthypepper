@@ -22,6 +22,7 @@
         },
         "price": {
           "type": "product_price",
+          "disabled": true,
           "settings": {
             "price_layout": "price-first",
             "price_color": "accent-1",
@@ -265,7 +266,7 @@
             "horizontal_desktop_padding": 15,
             "vertical_mobile_padding": 12,
             "horizontal_mobile_padding": 12,
-            "text_1": "360\u00b0 swivel clip helps reduce twisting and tangling",
+            "text_1": "360° swivel clip helps reduce twisting and tangling",
             "icon_1": "check_circle",
             "filled_icon_1": true,
             "text_2": "",
@@ -631,7 +632,7 @@
             "atc_custom_label": "ADD TO CART",
             "display_price": false,
             "price_position": "right",
-            "price_separator": "\u2022",
+            "price_separator": "•",
             "enable_custom_color": true,
             "custom_color": "#0f766e",
             "custom_text_color": "#ffffff",
