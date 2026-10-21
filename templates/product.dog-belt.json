@@ -16,7 +16,7 @@
           "type": "custom-liquid",
           "name": "Custom title",
           "settings": {
-            "custom_liquid": "<div class=\"pawosa-title-wrap\">\n  <h2 class=\"pawosa-title\">\n    Pawosa Heavy-Duty Bungee Pet Car Seatbelt\n  </h2>\n</div>\n\n<style>\n  .pawosa-title-wrap {\n    margin: 12px 0 8px 0;\n  }\n  .pawosa-title {\n    margin: 0;\n    font-size: 30px;\n    line-height: 1.25;\n    font-weight: 700;\n    color: #0f172a;\n    font-family: inherit;\n    letter-spacing: -0.3px;\n  }\n  @media (max-width: 480px) {\n    .pawosa-title {\n      font-size: 22px;\n      line-height: 1.3;\n    }\n  }\n</style>"
+            "custom_liquid": "<div class=\"pawosa-title-wrap\">\n  <h2 class=\"pawosa-title\">\n    Pepper Metabolic+\n  </h2>\n</div>\n\n<style>\n  .pawosa-title-wrap {\n    margin: 12px 0 8px 0;\n  }\n  .pawosa-title {\n    margin: 0;\n    font-size: 30px;\n    line-height: 1.25;\n    font-weight: 700;\n    color: #0f172a;\n    font-family: inherit;\n    letter-spacing: -0.3px;\n  }\n  @media (max-width: 480px) {\n    .pawosa-title {\n      font-size: 22px;\n      line-height: 1.3;\n    }\n  }\n</style>"
           },
           "blocks": {}
         },
